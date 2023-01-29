@@ -11,7 +11,7 @@ This tutorial explains how to use **rmldnn** to automate hyperparameter search u
 .. image:: ./figures/flowchart.png?raw=true
     :width: 550
     :height: 300
-    :align: center
+    :align: centre
    
 What is Optuna?
 ~~~~~~~~~~~~~~~

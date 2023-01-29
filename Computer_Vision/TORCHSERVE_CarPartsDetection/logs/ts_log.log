@@ -1,0 +1,1380 @@
+2022-12-02T13:05:09,271 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager - Initializing plugins manager...
+2022-12-02T13:05:09,271 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager - Initializing plugins manager...
+2022-12-02T13:05:09,850 [INFO ] main org.pytorch.serve.ModelServer - 
+Torchserve version: 0.5.2
+TS Home: /home/yash_unix/.local/lib/python3.8/site-packages
+Current directory: /mnt/d/carScan/TS_8
+Temp directory: /tmp
+Number of GPUs: 0
+Number of CPUs: 4
+Max heap size: 942 M
+Python executable: /usr/bin/python3.8
+Config file: /home/yash_unix/config.properties
+Inference address: http://0.0.0.0:8080
+Management address: http://0.0.0.0:8081
+Metrics address: http://0.0.0.0:8082
+Model Store: /mnt/d/carScan/TS_8/model_store
+Initial Models: all
+Log dir: /mnt/d/carScan/TS_8/logs
+Metrics dir: /mnt/d/carScan/TS_8/logs
+Netty threads: 0
+Netty client threads: 0
+Default workers per model: 4
+Blacklist Regex: N/A
+Maximum Response Size: 6553500
+Maximum Request Size: 10485760
+Limit Maximum Image Pixels: true
+Prefer direct buffer: false
+Allowed Urls: [file://.*|http(s)?://.*]
+Custom python dependency for model allowed: false
+Metrics report format: prometheus
+Enable metrics API: true
+Workflow Store: /mnt/d/carScan/TS_8/model_store
+Model config: N/A
+2022-12-02T13:05:09,850 [INFO ] main org.pytorch.serve.ModelServer - 
+Torchserve version: 0.5.2
+TS Home: /home/yash_unix/.local/lib/python3.8/site-packages
+Current directory: /mnt/d/carScan/TS_8
+Temp directory: /tmp
+Number of GPUs: 0
+Number of CPUs: 4
+Max heap size: 942 M
+Python executable: /usr/bin/python3.8
+Config file: /home/yash_unix/config.properties
+Inference address: http://0.0.0.0:8080
+Management address: http://0.0.0.0:8081
+Metrics address: http://0.0.0.0:8082
+Model Store: /mnt/d/carScan/TS_8/model_store
+Initial Models: all
+Log dir: /mnt/d/carScan/TS_8/logs
+Metrics dir: /mnt/d/carScan/TS_8/logs
+Netty threads: 0
+Netty client threads: 0
+Default workers per model: 4
+Blacklist Regex: N/A
+Maximum Response Size: 6553500
+Maximum Request Size: 10485760
+Limit Maximum Image Pixels: true
+Prefer direct buffer: false
+Allowed Urls: [file://.*|http(s)?://.*]
+Custom python dependency for model allowed: false
+Metrics report format: prometheus
+Enable metrics API: true
+Workflow Store: /mnt/d/carScan/TS_8/model_store
+Model config: N/A
+2022-12-02T13:05:09,904 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager -  Loading snapshot serializer plugin...
+2022-12-02T13:05:09,904 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager -  Loading snapshot serializer plugin...
+2022-12-02T13:05:10,102 [DEBUG] main org.pytorch.serve.ModelServer - Loading models from model store: carpartsdetection.mar
+2022-12-02T13:05:10,102 [DEBUG] main org.pytorch.serve.ModelServer - Loading models from model store: carpartsdetection.mar
+2022-12-02T13:07:53,777 [DEBUG] main org.pytorch.serve.wlm.ModelVersionedRefs - Adding new version 3.0 for model carpartsdetection
+2022-12-02T13:07:53,777 [DEBUG] main org.pytorch.serve.wlm.ModelVersionedRefs - Adding new version 3.0 for model carpartsdetection
+2022-12-02T13:07:53,779 [DEBUG] main org.pytorch.serve.wlm.ModelVersionedRefs - Setting default version to 3.0 for model carpartsdetection
+2022-12-02T13:07:53,779 [DEBUG] main org.pytorch.serve.wlm.ModelVersionedRefs - Setting default version to 3.0 for model carpartsdetection
+2022-12-02T13:07:53,781 [INFO ] main org.pytorch.serve.wlm.ModelManager - Model carpartsdetection loaded.
+2022-12-02T13:07:53,781 [INFO ] main org.pytorch.serve.wlm.ModelManager - Model carpartsdetection loaded.
+2022-12-02T13:07:53,783 [DEBUG] main org.pytorch.serve.wlm.ModelManager - updateModel: carpartsdetection, count: 4
+2022-12-02T13:07:53,783 [DEBUG] main org.pytorch.serve.wlm.ModelManager - updateModel: carpartsdetection, count: 4
+2022-12-02T13:07:53,831 [DEBUG] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3.8, /home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9000]
+2022-12-02T13:07:53,831 [DEBUG] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3.8, /home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9001]
+2022-12-02T13:07:53,831 [DEBUG] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3.8, /home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9003]
+2022-12-02T13:07:53,831 [DEBUG] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3.8, /home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9000]
+2022-12-02T13:07:53,832 [DEBUG] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3.8, /home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9002]
+2022-12-02T13:07:53,831 [DEBUG] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3.8, /home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9001]
+2022-12-02T13:07:53,832 [DEBUG] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3.8, /home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9002]
+2022-12-02T13:07:53,831 [DEBUG] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3.8, /home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9003]
+2022-12-02T13:07:53,880 [INFO ] main org.pytorch.serve.ModelServer - Initialize Inference server with: EpollServerSocketChannel.
+2022-12-02T13:07:53,880 [INFO ] main org.pytorch.serve.ModelServer - Initialize Inference server with: EpollServerSocketChannel.
+2022-12-02T13:07:54,688 [INFO ] main org.pytorch.serve.ModelServer - Inference API bind to: http://0.0.0.0:8080
+2022-12-02T13:07:54,688 [INFO ] main org.pytorch.serve.ModelServer - Inference API bind to: http://0.0.0.0:8080
+2022-12-02T13:07:54,691 [INFO ] main org.pytorch.serve.ModelServer - Initialize Management server with: EpollServerSocketChannel.
+2022-12-02T13:07:54,691 [INFO ] main org.pytorch.serve.ModelServer - Initialize Management server with: EpollServerSocketChannel.
+2022-12-02T13:07:54,694 [INFO ] main org.pytorch.serve.ModelServer - Management API bind to: http://0.0.0.0:8081
+2022-12-02T13:07:54,694 [INFO ] main org.pytorch.serve.ModelServer - Management API bind to: http://0.0.0.0:8081
+2022-12-02T13:07:54,696 [INFO ] main org.pytorch.serve.ModelServer - Initialize Metrics server with: EpollServerSocketChannel.
+2022-12-02T13:07:54,696 [INFO ] main org.pytorch.serve.ModelServer - Initialize Metrics server with: EpollServerSocketChannel.
+2022-12-02T13:07:54,700 [INFO ] main org.pytorch.serve.ModelServer - Metrics API bind to: http://0.0.0.0:8082
+2022-12-02T13:07:54,700 [INFO ] main org.pytorch.serve.ModelServer - Metrics API bind to: http://0.0.0.0:8082
+2022-12-02T13:07:57,097 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-12-02T13:07:57,097 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-12-02T13:07:57,177 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669966677
+2022-12-02T13:07:57,213 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:939.968334197998|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669966677
+2022-12-02T13:07:57,216 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:15.669975280761719|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669966677
+2022-12-02T13:07:57,221 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:1.6|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669966677
+2022-12-02T13:07:57,226 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:3006.50390625|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669966677
+2022-12-02T13:07:57,229 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:610.328125|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669966677
+2022-12-02T13:07:57,232 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:20.2|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669966677
+2022-12-02T13:07:59,680 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9003
+2022-12-02T13:07:59,683 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9001
+2022-12-02T13:07:59,679 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9002
+2022-12-02T13:07:59,679 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2022-12-02T13:07:59,704 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - [PID]90
+2022-12-02T13:07:59,715 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - Torch worker started.
+2022-12-02T13:07:59,718 [DEBUG] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9003-carpartsdetection_3.0 State change null -> WORKER_STARTED
+2022-12-02T13:07:59,708 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - [PID]88
+2022-12-02T13:07:59,711 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - [PID]89
+2022-12-02T13:07:59,711 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - [PID]87
+2022-12-02T13:07:59,718 [DEBUG] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9003-carpartsdetection_3.0 State change null -> WORKER_STARTED
+2022-12-02T13:07:59,723 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Torch worker started.
+2022-12-02T13:07:59,724 [DEBUG] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9001-carpartsdetection_3.0 State change null -> WORKER_STARTED
+2022-12-02T13:07:59,719 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - Python runtime: 3.8.15
+2022-12-02T13:07:59,723 [DEBUG] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9002-carpartsdetection_3.0 State change null -> WORKER_STARTED
+2022-12-02T13:07:59,726 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Python runtime: 3.8.15
+2022-12-02T13:07:59,726 [DEBUG] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9000-carpartsdetection_3.0 State change null -> WORKER_STARTED
+2022-12-02T13:07:59,726 [DEBUG] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9000-carpartsdetection_3.0 State change null -> WORKER_STARTED
+2022-12-02T13:07:59,726 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Torch worker started.
+2022-12-02T13:07:59,724 [DEBUG] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9001-carpartsdetection_3.0 State change null -> WORKER_STARTED
+2022-12-02T13:07:59,722 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Torch worker started.
+2022-12-02T13:07:59,723 [DEBUG] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9002-carpartsdetection_3.0 State change null -> WORKER_STARTED
+2022-12-02T13:07:59,742 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Python runtime: 3.8.15
+2022-12-02T13:07:59,746 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Python runtime: 3.8.15
+2022-12-02T13:07:59,766 [INFO ] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9001
+2022-12-02T13:07:59,766 [INFO ] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9002
+2022-12-02T13:07:59,766 [INFO ] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9000
+2022-12-02T13:07:59,766 [INFO ] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9003
+2022-12-02T13:07:59,766 [INFO ] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9000
+2022-12-02T13:07:59,766 [INFO ] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9001
+2022-12-02T13:07:59,766 [INFO ] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9002
+2022-12-02T13:07:59,766 [INFO ] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9003
+2022-12-02T13:07:59,811 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9001.
+2022-12-02T13:07:59,812 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9003.
+2022-12-02T13:07:59,812 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9002.
+2022-12-02T13:07:59,824 [INFO ] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669966679824
+2022-12-02T13:07:59,824 [INFO ] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669966679824
+2022-12-02T13:07:59,824 [INFO ] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669966679824
+2022-12-02T13:07:59,824 [INFO ] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669966679824
+2022-12-02T13:07:59,813 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2022-12-02T13:07:59,824 [INFO ] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669966679824
+2022-12-02T13:07:59,824 [INFO ] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669966679824
+2022-12-02T13:07:59,824 [INFO ] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669966679824
+2022-12-02T13:07:59,824 [INFO ] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669966679824
+2022-12-02T13:08:00,253 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - model_name: carpartsdetection, batchSize: 1
+2022-12-02T13:08:00,268 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - model_name: carpartsdetection, batchSize: 1
+2022-12-02T13:08:00,328 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - model_name: carpartsdetection, batchSize: 1
+2022-12-02T13:08:00,335 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - model_name: carpartsdetection, batchSize: 1
+2022-12-02T13:08:04,811 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Backend worker process died.
+2022-12-02T13:08:04,817 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-12-02T13:08:04,812 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Backend worker process died.
+2022-12-02T13:08:04,812 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Backend worker process died.
+2022-12-02T13:08:04,831 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py", line 189, in <module>
+2022-12-02T13:08:04,853 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-12-02T13:08:04,857 [INFO ] epollEventLoopGroup-5-2 org.pytorch.serve.wlm.WorkerThread - 9001 Worker disconnected. WORKER_STARTED
+2022-12-02T13:08:04,857 [INFO ] epollEventLoopGroup-5-2 org.pytorch.serve.wlm.WorkerThread - 9001 Worker disconnected. WORKER_STARTED
+2022-12-02T13:08:04,856 [INFO ] epollEventLoopGroup-5-4 org.pytorch.serve.wlm.WorkerThread - 9000 Worker disconnected. WORKER_STARTED
+2022-12-02T13:08:04,856 [INFO ] epollEventLoopGroup-5-4 org.pytorch.serve.wlm.WorkerThread - 9000 Worker disconnected. WORKER_STARTED
+2022-12-02T13:08:04,898 [DEBUG] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_STARTED
+2022-12-02T13:08:04,898 [DEBUG] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_STARTED
+2022-12-02T13:08:04,859 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-12-02T13:08:04,858 [INFO ] epollEventLoopGroup-5-3 org.pytorch.serve.wlm.WorkerThread - 9002 Worker disconnected. WORKER_STARTED
+2022-12-02T13:08:04,858 [INFO ] epollEventLoopGroup-5-3 org.pytorch.serve.wlm.WorkerThread - 9002 Worker disconnected. WORKER_STARTED
+2022-12-02T13:08:04,917 [DEBUG] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_STARTED
+2022-12-02T13:08:04,917 [DEBUG] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_STARTED
+2022-12-02T13:08:04,878 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py", line 189, in <module>
+2022-12-02T13:08:04,890 [DEBUG] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_STARTED
+2022-12-02T13:08:04,870 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -     worker.run_server()
+2022-12-02T13:08:04,954 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -     worker.run_server()
+2022-12-02T13:08:04,977 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py", line 161, in run_server
+2022-12-02T13:08:04,994 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -     self.handle_connection(cl_socket)
+2022-12-02T13:08:04,981 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py", line 161, in run_server
+2022-12-02T13:08:04,914 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py", line 189, in <module>
+2022-12-02T13:08:04,890 [DEBUG] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_STARTED
+2022-12-02T13:08:04,997 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py", line 123, in handle_connection
+2022-12-02T13:08:05,002 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -     self.handle_connection(cl_socket)
+2022-12-02T13:08:05,008 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py", line 123, in handle_connection
+2022-12-02T13:08:05,010 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -     worker.run_server()
+2022-12-02T13:08:05,007 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -     service, result, code = self.load_model(msg)
+2022-12-02T13:08:05,011 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -     service, result, code = self.load_model(msg)
+2022-12-02T13:08:05,018 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py", line 95, in load_model
+2022-12-02T13:08:05,024 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py", line 95, in load_model
+2022-12-02T13:08:05,015 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py", line 161, in run_server
+2022-12-02T13:08:05,029 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -     service = model_loader.load(model_name, model_dir, handler, gpu,
+2022-12-02T13:08:05,033 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -     service = model_loader.load(model_name, model_dir, handler, gpu,
+2022-12-02T13:08:05,038 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_loader.py", line 112, in load
+2022-12-02T13:08:05,036 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -     self.handle_connection(cl_socket)
+2022-12-02T13:08:05,046 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_loader.py", line 112, in load
+2022-12-02T13:08:05,050 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py", line 123, in handle_connection
+2022-12-02T13:08:05,049 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -     initialize_fn(service.context)
+2022-12-02T13:08:05,054 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -     initialize_fn(service.context)
+2022-12-02T13:08:05,056 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -     service, result, code = self.load_model(msg)
+2022-12-02T13:08:05,064 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -   File "/tmp/models/1413708fd29944d2a2b569f210a8b730/handler.py", line 79, in initialize
+2022-12-02T13:08:05,067 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py", line 95, in load_model
+2022-12-02T13:08:05,062 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -   File "/tmp/models/1413708fd29944d2a2b569f210a8b730/handler.py", line 79, in initialize
+2022-12-02T13:08:05,070 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -     zip_ref.extractall(folder_name)
+2022-12-02T13:08:05,072 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -     zip_ref.extractall(folder_name)
+2022-12-02T13:08:05,077 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -   File "/usr/lib/python3.8/zipfile.py", line 1647, in extractall
+2022-12-02T13:08:05,070 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -     service = model_loader.load(model_name, model_dir, handler, gpu,
+2022-12-02T13:08:05,082 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -     self._extract_member(zipinfo, path, pwd)
+2022-12-02T13:08:05,079 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -   File "/usr/lib/python3.8/zipfile.py", line 1647, in extractall
+2022-12-02T13:08:05,086 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_loader.py", line 112, in load
+2022-12-02T13:08:05,089 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -     self._extract_member(zipinfo, path, pwd)
+2022-12-02T13:08:05,091 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -     initialize_fn(service.context)
+2022-12-02T13:08:05,095 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -   File "/usr/lib/python3.8/zipfile.py", line 1693, in _extract_member
+2022-12-02T13:08:05,087 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -   File "/usr/lib/python3.8/zipfile.py", line 1693, in _extract_member
+2022-12-02T13:08:05,097 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -   File "/tmp/models/1413708fd29944d2a2b569f210a8b730/handler.py", line 79, in initialize
+2022-12-02T13:08:05,103 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -     os.makedirs(upperdirs)
+2022-12-02T13:08:05,107 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -     os.makedirs(upperdirs)
+2022-12-02T13:08:05,110 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -   File "/usr/lib/python3.8/os.py", line 223, in makedirs
+2022-12-02T13:08:05,109 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -     zip_ref.extractall(folder_name)
+2022-12-02T13:08:05,123 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -   File "/usr/lib/python3.8/zipfile.py", line 1647, in extractall
+2022-12-02T13:08:05,116 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -   File "/usr/lib/python3.8/os.py", line 223, in makedirs
+2022-12-02T13:08:05,122 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -     mkdir(name, mode)
+2022-12-02T13:08:05,125 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -     self._extract_member(zipinfo, path, pwd)
+2022-12-02T13:08:05,126 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -     mkdir(name, mode)
+2022-12-02T13:08:05,128 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - FileExistsError: [Errno 17] File exists: 'models'
+2022-12-02T13:08:05,132 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -   File "/usr/lib/python3.8/zipfile.py", line 1693, in _extract_member
+2022-12-02T13:08:05,142 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -     os.makedirs(upperdirs)
+2022-12-02T13:08:05,155 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -   File "/usr/lib/python3.8/os.py", line 223, in makedirs
+2022-12-02T13:08:05,143 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - FileExistsError: [Errno 17] File exists: 'models'
+2022-12-02T13:08:05,158 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -     mkdir(name, mode)
+2022-12-02T13:08:05,173 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - FileExistsError: [Errno 17] File exists: 'models'
+2022-12-02T13:08:05,006 [DEBUG] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend worker monitoring thread interrupted or backend worker process died.
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1679) ~[?:?]
+	at java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:435) ~[?:?]
+	at org.pytorch.serve.wlm.WorkerThread.run(WorkerThread.java:189) [model-server.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-12-02T13:08:04,943 [DEBUG] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend worker monitoring thread interrupted or backend worker process died.
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1679) ~[?:?]
+	at java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:435) ~[?:?]
+	at org.pytorch.serve.wlm.WorkerThread.run(WorkerThread.java:189) [model-server.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-12-02T13:08:04,914 [DEBUG] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend worker monitoring thread interrupted or backend worker process died.
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1679) ~[?:?]
+	at java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:435) ~[?:?]
+	at org.pytorch.serve.wlm.WorkerThread.run(WorkerThread.java:189) [model-server.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-12-02T13:08:05,006 [DEBUG] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend worker monitoring thread interrupted or backend worker process died.
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1679) ~[?:?]
+	at java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:435) ~[?:?]
+	at org.pytorch.serve.wlm.WorkerThread.run(WorkerThread.java:189) [model-server.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-12-02T13:08:04,943 [DEBUG] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend worker monitoring thread interrupted or backend worker process died.
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1679) ~[?:?]
+	at java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:435) ~[?:?]
+	at org.pytorch.serve.wlm.WorkerThread.run(WorkerThread.java:189) [model-server.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-12-02T13:08:04,914 [DEBUG] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend worker monitoring thread interrupted or backend worker process died.
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1679) ~[?:?]
+	at java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:435) ~[?:?]
+	at org.pytorch.serve.wlm.WorkerThread.run(WorkerThread.java:189) [model-server.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-12-02T13:08:05,267 [WARN ] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.BatchAggregator - Load model failed: carpartsdetection, error: Worker died.
+2022-12-02T13:08:05,267 [WARN ] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.BatchAggregator - Load model failed: carpartsdetection, error: Worker died.
+2022-12-02T13:08:05,271 [DEBUG] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9000-carpartsdetection_3.0 State change WORKER_STARTED -> WORKER_STOPPED
+2022-12-02T13:08:05,271 [DEBUG] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9000-carpartsdetection_3.0 State change WORKER_STARTED -> WORKER_STOPPED
+2022-12-02T13:08:05,265 [WARN ] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.BatchAggregator - Load model failed: carpartsdetection, error: Worker died.
+2022-12-02T13:08:05,265 [WARN ] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.BatchAggregator - Load model failed: carpartsdetection, error: Worker died.
+2022-12-02T13:08:05,294 [WARN ] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9000-carpartsdetection_3.0-stderr
+2022-12-02T13:08:05,294 [DEBUG] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9001-carpartsdetection_3.0 State change WORKER_STARTED -> WORKER_STOPPED
+2022-12-02T13:08:05,266 [WARN ] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.BatchAggregator - Load model failed: carpartsdetection, error: Worker died.
+2022-12-02T13:08:05,294 [DEBUG] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9001-carpartsdetection_3.0 State change WORKER_STARTED -> WORKER_STOPPED
+2022-12-02T13:08:05,294 [WARN ] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9000-carpartsdetection_3.0-stderr
+2022-12-02T13:08:05,322 [WARN ] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9000-carpartsdetection_3.0-stdout
+2022-12-02T13:08:05,322 [WARN ] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9000-carpartsdetection_3.0-stdout
+2022-12-02T13:08:05,327 [INFO ] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Retry worker: 9000 in 1 seconds.
+2022-12-02T13:08:05,266 [WARN ] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.BatchAggregator - Load model failed: carpartsdetection, error: Worker died.
+2022-12-02T13:08:05,327 [INFO ] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Retry worker: 9000 in 1 seconds.
+2022-12-02T13:08:05,330 [DEBUG] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9002-carpartsdetection_3.0 State change WORKER_STARTED -> WORKER_STOPPED
+2022-12-02T13:08:05,330 [DEBUG] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9002-carpartsdetection_3.0 State change WORKER_STARTED -> WORKER_STOPPED
+2022-12-02T13:08:05,333 [WARN ] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9002-carpartsdetection_3.0-stderr
+2022-12-02T13:08:05,333 [WARN ] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9002-carpartsdetection_3.0-stderr
+2022-12-02T13:08:05,348 [WARN ] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9002-carpartsdetection_3.0-stdout
+2022-12-02T13:08:05,348 [WARN ] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9002-carpartsdetection_3.0-stdout
+2022-12-02T13:08:05,353 [INFO ] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Retry worker: 9002 in 1 seconds.
+2022-12-02T13:08:05,353 [INFO ] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Retry worker: 9002 in 1 seconds.
+2022-12-02T13:08:05,342 [INFO ] W-9000-carpartsdetection_3.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-carpartsdetection_3.0-stdout
+2022-12-02T13:08:05,333 [WARN ] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9001-carpartsdetection_3.0-stderr
+2022-12-02T13:08:05,342 [INFO ] W-9000-carpartsdetection_3.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-carpartsdetection_3.0-stdout
+2022-12-02T13:08:05,345 [INFO ] W-9000-carpartsdetection_3.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-carpartsdetection_3.0-stderr
+2022-12-02T13:08:05,345 [INFO ] W-9000-carpartsdetection_3.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-carpartsdetection_3.0-stderr
+2022-12-02T13:08:05,333 [WARN ] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9001-carpartsdetection_3.0-stderr
+2022-12-02T13:08:05,383 [WARN ] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9001-carpartsdetection_3.0-stdout
+2022-12-02T13:08:05,383 [WARN ] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9001-carpartsdetection_3.0-stdout
+2022-12-02T13:08:05,386 [INFO ] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Retry worker: 9001 in 1 seconds.
+2022-12-02T13:08:05,383 [INFO ] W-9002-carpartsdetection_3.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9002-carpartsdetection_3.0-stdout
+2022-12-02T13:08:05,383 [INFO ] W-9002-carpartsdetection_3.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9002-carpartsdetection_3.0-stdout
+2022-12-02T13:08:05,379 [INFO ] W-9001-carpartsdetection_3.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9001-carpartsdetection_3.0-stdout
+2022-12-02T13:08:05,379 [INFO ] W-9001-carpartsdetection_3.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9001-carpartsdetection_3.0-stdout
+2022-12-02T13:08:05,379 [INFO ] W-9001-carpartsdetection_3.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9001-carpartsdetection_3.0-stderr
+2022-12-02T13:08:05,383 [INFO ] W-9002-carpartsdetection_3.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9002-carpartsdetection_3.0-stderr
+2022-12-02T13:08:05,379 [INFO ] W-9001-carpartsdetection_3.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9001-carpartsdetection_3.0-stderr
+2022-12-02T13:08:05,386 [INFO ] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Retry worker: 9001 in 1 seconds.
+2022-12-02T13:08:05,383 [INFO ] W-9002-carpartsdetection_3.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9002-carpartsdetection_3.0-stderr
+2022-12-02T13:08:06,330 [DEBUG] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3.8, /home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9000]
+2022-12-02T13:08:06,330 [DEBUG] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3.8, /home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9000]
+2022-12-02T13:08:06,355 [DEBUG] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3.8, /home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9002]
+2022-12-02T13:08:06,355 [DEBUG] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3.8, /home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9002]
+2022-12-02T13:08:06,387 [DEBUG] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3.8, /home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9001]
+2022-12-02T13:08:06,387 [DEBUG] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3.8, /home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9001]
+2022-12-02T13:08:08,307 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - Fusing layers... 
+2022-12-02T13:08:08,308 [WARN ] W-9003-carpartsdetection_3.0-stderr MODEL_LOG - Fusing layers... 
+2022-12-02T13:08:09,259 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9002
+2022-12-02T13:08:09,275 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - [PID]139
+2022-12-02T13:08:09,288 [DEBUG] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9002-carpartsdetection_3.0 State change WORKER_STOPPED -> WORKER_STARTED
+2022-12-02T13:08:09,288 [DEBUG] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9002-carpartsdetection_3.0 State change WORKER_STOPPED -> WORKER_STARTED
+2022-12-02T13:08:09,290 [INFO ] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9002
+2022-12-02T13:08:09,278 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9001
+2022-12-02T13:08:09,290 [INFO ] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9002
+2022-12-02T13:08:09,288 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Torch worker started.
+2022-12-02T13:08:09,304 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - [PID]142
+2022-12-02T13:08:09,323 [DEBUG] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9001-carpartsdetection_3.0 State change WORKER_STOPPED -> WORKER_STARTED
+2022-12-02T13:08:09,323 [DEBUG] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9001-carpartsdetection_3.0 State change WORKER_STOPPED -> WORKER_STARTED
+2022-12-02T13:08:09,328 [INFO ] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9001
+2022-12-02T13:08:09,312 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2022-12-02T13:08:09,323 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Torch worker started.
+2022-12-02T13:08:09,321 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Python runtime: 3.8.15
+2022-12-02T13:08:09,330 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - [PID]136
+2022-12-02T13:08:09,328 [INFO ] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669966689327
+2022-12-02T13:08:09,328 [INFO ] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9001
+2022-12-02T13:08:09,355 [DEBUG] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9000-carpartsdetection_3.0 State change WORKER_STOPPED -> WORKER_STARTED
+2022-12-02T13:08:09,339 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Python runtime: 3.8.15
+2022-12-02T13:08:09,356 [INFO ] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669966689356
+2022-12-02T13:08:09,328 [INFO ] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669966689327
+2022-12-02T13:08:09,345 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Torch worker started.
+2022-12-02T13:08:09,343 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9002.
+2022-12-02T13:08:09,358 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9001.
+2022-12-02T13:08:09,356 [INFO ] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669966689356
+2022-12-02T13:08:09,355 [DEBUG] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9000-carpartsdetection_3.0 State change WORKER_STOPPED -> WORKER_STARTED
+2022-12-02T13:08:09,393 [INFO ] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9000
+2022-12-02T13:08:09,393 [INFO ] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9000
+2022-12-02T13:08:09,399 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Python runtime: 3.8.15
+2022-12-02T13:08:09,444 [INFO ] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669966689444
+2022-12-02T13:08:09,444 [INFO ] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669966689444
+2022-12-02T13:08:09,443 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2022-12-02T13:08:09,604 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - model_name: carpartsdetection, batchSize: 1
+2022-12-02T13:08:09,641 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - model_name: carpartsdetection, batchSize: 1
+2022-12-02T13:08:09,755 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - model_name: carpartsdetection, batchSize: 1
+2022-12-02T13:08:11,401 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - yolov7-seg summary: 325 layers, 37923386 parameters, 0 gradients
+2022-12-02T13:08:11,401 [WARN ] W-9003-carpartsdetection_3.0-stderr MODEL_LOG - yolov7-seg summary: 325 layers, 37923386 parameters, 0 gradients
+2022-12-02T13:08:11,420 [INFO ] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 11160
+2022-12-02T13:08:11,420 [INFO ] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 11160
+2022-12-02T13:08:11,423 [DEBUG] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9003-carpartsdetection_3.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-12-02T13:08:11,423 [DEBUG] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9003-carpartsdetection_3.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-12-02T13:08:11,426 [INFO ] W-9003-carpartsdetection_3.0 TS_METRICS - W-9003-carpartsdetection_3.0.ms:17596|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669966691
+2022-12-02T13:08:11,428 [INFO ] W-9003-carpartsdetection_3.0 TS_METRICS - WorkerThreadTime.ms:444|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:08:13,853 [WARN ] W-9000-carpartsdetection_3.0-stderr MODEL_LOG - Fusing layers... 
+2022-12-02T13:08:13,837 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Fusing layers... 
+2022-12-02T13:08:14,074 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Fusing layers... 
+2022-12-02T13:08:14,079 [WARN ] W-9002-carpartsdetection_3.0-stderr MODEL_LOG - Fusing layers... 
+2022-12-02T13:08:14,540 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Fusing layers... 
+2022-12-02T13:08:14,545 [WARN ] W-9001-carpartsdetection_3.0-stderr MODEL_LOG - Fusing layers... 
+2022-12-02T13:08:16,211 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - yolov7-seg summary: 325 layers, 37923386 parameters, 0 gradients
+2022-12-02T13:08:16,214 [WARN ] W-9002-carpartsdetection_3.0-stderr MODEL_LOG - yolov7-seg summary: 325 layers, 37923386 parameters, 0 gradients
+2022-12-02T13:08:16,220 [INFO ] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 6579
+2022-12-02T13:08:16,220 [INFO ] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 6579
+2022-12-02T13:08:16,246 [DEBUG] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9002-carpartsdetection_3.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-12-02T13:08:16,246 [DEBUG] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9002-carpartsdetection_3.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-12-02T13:08:16,251 [INFO ] W-9002-carpartsdetection_3.0 TS_METRICS - W-9002-carpartsdetection_3.0.ms:22423|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669966696
+2022-12-02T13:08:16,264 [INFO ] W-9002-carpartsdetection_3.0 TS_METRICS - WorkerThreadTime.ms:358|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:08:16,466 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - yolov7-seg summary: 325 layers, 37923386 parameters, 0 gradients
+2022-12-02T13:08:16,468 [WARN ] W-9000-carpartsdetection_3.0-stderr MODEL_LOG - yolov7-seg summary: 325 layers, 37923386 parameters, 0 gradients
+2022-12-02T13:08:16,480 [INFO ] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 6697
+2022-12-02T13:08:16,480 [INFO ] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 6697
+2022-12-02T13:08:16,485 [DEBUG] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9000-carpartsdetection_3.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-12-02T13:08:16,485 [DEBUG] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9000-carpartsdetection_3.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-12-02T13:08:16,489 [INFO ] W-9000-carpartsdetection_3.0 TS_METRICS - W-9000-carpartsdetection_3.0.ms:22668|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669966696
+2022-12-02T13:08:16,496 [INFO ] W-9000-carpartsdetection_3.0 TS_METRICS - WorkerThreadTime.ms:355|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:08:16,570 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - yolov7-seg summary: 325 layers, 37923386 parameters, 0 gradients
+2022-12-02T13:08:16,570 [WARN ] W-9001-carpartsdetection_3.0-stderr MODEL_LOG - yolov7-seg summary: 325 layers, 37923386 parameters, 0 gradients
+2022-12-02T13:08:16,578 [INFO ] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 6948
+2022-12-02T13:08:16,578 [INFO ] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 6948
+2022-12-02T13:08:16,583 [DEBUG] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9001-carpartsdetection_3.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-12-02T13:08:16,583 [DEBUG] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9001-carpartsdetection_3.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-12-02T13:08:16,588 [INFO ] W-9001-carpartsdetection_3.0 TS_METRICS - W-9001-carpartsdetection_3.0.ms:22760|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669966696
+2022-12-02T13:08:16,598 [INFO ] W-9001-carpartsdetection_3.0 TS_METRICS - WorkerThreadTime.ms:294|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:08:57,183 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669966737
+2022-12-02T13:08:57,189 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:939.9674911499023|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669966737
+2022-12-02T13:08:57,194 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:15.670818328857422|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669966737
+2022-12-02T13:08:57,199 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:1.6|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669966737
+2022-12-02T13:08:57,204 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:1235.80078125|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669966737
+2022-12-02T13:08:57,209 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:2376.5390625|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669966737
+2022-12-02T13:08:57,215 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:67.2|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669966737
+2022-12-02T13:09:57,157 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669966797
+2022-12-02T13:09:57,163 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:939.9674911499023|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669966797
+2022-12-02T13:09:57,168 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:15.670818328857422|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669966797
+2022-12-02T13:09:57,172 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:1.6|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669966797
+2022-12-02T13:09:57,178 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:1230.12109375|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669966797
+2022-12-02T13:09:57,183 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:2382.23046875|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669966797
+2022-12-02T13:09:57,188 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:67.3|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669966797
+2022-12-02T13:10:16,601 [INFO ] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669966816601
+2022-12-02T13:10:16,601 [INFO ] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669966816601
+2022-12-02T13:10:16,644 [WARN ] W-9003-carpartsdetection_3.0-stderr MODEL_LOG - Backend received inference at: 1669966816
+2022-12-02T13:10:16,644 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - Backend received inference at: 1669966816
+2022-12-02T13:10:21,861 [INFO ] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 5252
+2022-12-02T13:10:21,861 [INFO ] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 5252
+2022-12-02T13:10:21,875 [INFO ] W-9003-carpartsdetection_3.0 ACCESS_LOG - /[0:0:0:0:0:0:0:1%0]:33872 "POST /predictions/carpartsdetection HTTP/1.1" 200 5371
+2022-12-02T13:10:21,988 [INFO ] W-9003-carpartsdetection_3.0 TS_METRICS - Requests2XX.Count:1|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:10:21,857 [INFO ] W-9003-carpartsdetection_3.0-stderr MODEL_METRICS - PredictionTime.Milliseconds:5197.15|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:e72c40d7-4b10-46ca-83a8-7fca46e56435,timestamp:1669966821
+2022-12-02T13:10:21,996 [DEBUG] W-9003-carpartsdetection_3.0 org.pytorch.serve.job.Job - Waiting time ns: 779154, Backend time ns: 5391916261
+2022-12-02T13:10:21,858 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_METRICS - PredictionTime.Milliseconds:5197.15|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:e72c40d7-4b10-46ca-83a8-7fca46e56435,timestamp:1669966821
+2022-12-02T13:10:21,996 [DEBUG] W-9003-carpartsdetection_3.0 org.pytorch.serve.job.Job - Waiting time ns: 779154, Backend time ns: 5391916261
+2022-12-02T13:10:22,003 [INFO ] W-9003-carpartsdetection_3.0 TS_METRICS - QueueTime.ms:0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:10:22,010 [INFO ] W-9003-carpartsdetection_3.0 TS_METRICS - WorkerThreadTime.ms:157|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:10:57,191 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669966857
+2022-12-02T13:10:57,195 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:939.9674911499023|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669966857
+2022-12-02T13:10:57,199 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:15.670818328857422|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669966857
+2022-12-02T13:10:57,202 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:1.6|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669966857
+2022-12-02T13:10:57,204 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:905.91015625|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669966857
+2022-12-02T13:10:57,213 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:2706.41796875|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669966857
+2022-12-02T13:10:57,216 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:76.0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669966857
+2022-12-02T13:11:57,157 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669966917
+2022-12-02T13:11:57,160 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:939.9674911499023|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669966917
+2022-12-02T13:11:57,163 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:15.670818328857422|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669966917
+2022-12-02T13:11:57,166 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:1.6|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669966917
+2022-12-02T13:11:57,168 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:896.92578125|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669966917
+2022-12-02T13:11:57,170 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:2715.40625|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669966917
+2022-12-02T13:11:57,173 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:76.2|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669966917
+2022-12-02T13:12:57,150 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669966977
+2022-12-02T13:12:57,153 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:939.9674911499023|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669966977
+2022-12-02T13:12:57,156 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:15.670818328857422|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669966977
+2022-12-02T13:12:57,158 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:1.6|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669966977
+2022-12-02T13:12:57,161 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:891.41015625|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669966977
+2022-12-02T13:12:57,162 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:2720.9140625|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669966977
+2022-12-02T13:12:57,165 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:76.3|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669966977
+2022-12-02T13:13:57,182 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967037
+2022-12-02T13:13:57,185 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:939.9674911499023|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967037
+2022-12-02T13:13:57,187 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:15.670818328857422|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967037
+2022-12-02T13:13:57,190 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:1.6|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967037
+2022-12-02T13:13:57,194 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:879.94921875|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967037
+2022-12-02T13:13:57,197 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:2732.3828125|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967037
+2022-12-02T13:13:57,199 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:76.6|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967037
+2022-12-02T13:14:57,171 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967097
+2022-12-02T13:14:57,174 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:939.9674911499023|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967097
+2022-12-02T13:14:57,176 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:15.670818328857422|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967097
+2022-12-02T13:14:57,180 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:1.6|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967097
+2022-12-02T13:14:57,183 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:883.484375|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967097
+2022-12-02T13:14:57,185 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:2728.83984375|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967097
+2022-12-02T13:14:57,188 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:76.5|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967097
+2022-12-02T13:15:57,197 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967157
+2022-12-02T13:15:57,202 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:939.9674911499023|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967157
+2022-12-02T13:15:57,208 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:15.670818328857422|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967157
+2022-12-02T13:15:57,216 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:1.6|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967157
+2022-12-02T13:15:57,219 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:880.859375|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967157
+2022-12-02T13:15:57,221 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:2731.46484375|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967157
+2022-12-02T13:15:57,223 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:76.6|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967157
+2022-12-02T13:16:57,165 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967217
+2022-12-02T13:16:57,167 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:939.9674911499023|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967217
+2022-12-02T13:16:57,169 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:15.670818328857422|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967217
+2022-12-02T13:16:57,171 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:1.6|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967217
+2022-12-02T13:16:57,174 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:873.98046875|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967217
+2022-12-02T13:16:57,177 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:2738.34375|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967217
+2022-12-02T13:16:57,180 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:76.8|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967217
+2022-12-02T13:17:57,227 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967277
+2022-12-02T13:17:57,229 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:939.9674911499023|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967277
+2022-12-02T13:17:57,232 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:15.670818328857422|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967277
+2022-12-02T13:17:57,234 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:1.6|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967277
+2022-12-02T13:17:57,236 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:867.98828125|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967277
+2022-12-02T13:17:57,239 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:2744.3359375|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967277
+2022-12-02T13:17:57,246 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:77.0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967277
+2022-12-02T13:18:57,168 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967337
+2022-12-02T13:18:57,171 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:939.9674911499023|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967337
+2022-12-02T13:18:57,173 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:15.670818328857422|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967337
+2022-12-02T13:18:57,176 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:1.6|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967337
+2022-12-02T13:18:57,179 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:869.01171875|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967337
+2022-12-02T13:18:57,181 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:2743.3125|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967337
+2022-12-02T13:18:57,184 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:76.9|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967337
+2022-12-02T13:19:57,177 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967397
+2022-12-02T13:19:57,179 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:939.9674911499023|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967397
+2022-12-02T13:19:57,183 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:15.670818328857422|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967397
+2022-12-02T13:19:57,187 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:1.6|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967397
+2022-12-02T13:19:57,190 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:858.921875|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967397
+2022-12-02T13:19:57,192 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:2753.40625|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967397
+2022-12-02T13:19:57,194 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:77.2|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967397
+2022-12-02T13:20:57,193 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967457
+2022-12-02T13:20:57,197 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:939.9674911499023|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967457
+2022-12-02T13:20:57,200 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:15.670818328857422|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967457
+2022-12-02T13:20:57,202 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:1.6|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967457
+2022-12-02T13:20:57,204 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:855.609375|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967457
+2022-12-02T13:20:57,206 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:2756.71484375|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967457
+2022-12-02T13:20:57,209 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:77.3|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967457
+2022-12-02T13:21:57,152 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967517
+2022-12-02T13:21:57,154 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:939.9674911499023|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967517
+2022-12-02T13:21:57,157 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:15.670818328857422|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967517
+2022-12-02T13:21:57,159 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:1.6|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967517
+2022-12-02T13:21:57,162 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:858.6953125|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967517
+2022-12-02T13:21:57,164 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:2753.6328125|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967517
+2022-12-02T13:21:57,166 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:77.2|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967517
+2022-12-02T13:22:57,203 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967577
+2022-12-02T13:22:57,206 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:939.9674911499023|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967577
+2022-12-02T13:22:57,208 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:15.670818328857422|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967577
+2022-12-02T13:22:57,210 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:1.6|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967577
+2022-12-02T13:22:57,213 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:862.1171875|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967577
+2022-12-02T13:22:57,215 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:2750.20703125|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967577
+2022-12-02T13:22:57,217 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:77.1|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967577
+2022-12-02T13:23:57,145 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967637
+2022-12-02T13:23:57,147 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:939.9674911499023|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967637
+2022-12-02T13:23:57,151 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:15.670818328857422|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967637
+2022-12-02T13:23:57,154 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:1.6|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967637
+2022-12-02T13:23:57,156 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:847.30078125|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967637
+2022-12-02T13:23:57,158 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:2765.0234375|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967637
+2022-12-02T13:23:57,160 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:77.5|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967637
+2022-12-02T13:24:57,197 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967697
+2022-12-02T13:24:57,201 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:939.9674911499023|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967697
+2022-12-02T13:24:57,208 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:15.670818328857422|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967697
+2022-12-02T13:24:57,211 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:1.6|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967697
+2022-12-02T13:24:57,217 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:843.1796875|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967697
+2022-12-02T13:24:57,224 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:2769.13671875|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967697
+2022-12-02T13:24:57,228 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:77.6|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967697
+2022-12-02T13:25:57,150 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967757
+2022-12-02T13:25:57,153 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:939.9674911499023|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967757
+2022-12-02T13:25:57,156 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:15.670818328857422|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967757
+2022-12-02T13:25:57,158 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:1.6|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967757
+2022-12-02T13:25:57,161 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:833.83203125|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967757
+2022-12-02T13:25:57,164 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:2778.484375|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967757
+2022-12-02T13:25:57,166 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:77.9|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967757
+2022-12-02T13:26:57,179 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967817
+2022-12-02T13:26:57,182 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:939.9674911499023|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967817
+2022-12-02T13:26:57,184 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:15.670818328857422|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967817
+2022-12-02T13:26:57,186 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:1.6|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967817
+2022-12-02T13:26:57,189 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:833.28515625|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967817
+2022-12-02T13:26:57,192 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:2779.03125|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967817
+2022-12-02T13:26:57,195 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:77.9|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967817
+2022-12-02T13:27:57,147 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967877
+2022-12-02T13:27:57,150 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:939.9674911499023|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967877
+2022-12-02T13:27:57,152 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:15.670818328857422|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967877
+2022-12-02T13:27:57,154 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:1.6|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967877
+2022-12-02T13:27:57,158 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:841.421875|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967877
+2022-12-02T13:27:57,162 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:2770.90234375|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967877
+2022-12-02T13:27:57,166 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:77.7|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967877
+2022-12-02T13:28:57,173 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:50.0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967937
+2022-12-02T13:28:57,180 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:939.9674911499023|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967937
+2022-12-02T13:28:57,183 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:15.670818328857422|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967937
+2022-12-02T13:28:57,186 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:1.6|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967937
+2022-12-02T13:28:57,188 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:839.40625|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967937
+2022-12-02T13:28:57,196 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:2772.91796875|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967937
+2022-12-02T13:28:57,198 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:77.7|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967937
+2022-12-02T13:29:57,171 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967997
+2022-12-02T13:29:57,173 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:939.9674911499023|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967997
+2022-12-02T13:29:57,175 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:15.670818328857422|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967997
+2022-12-02T13:29:57,177 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:1.6|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967997
+2022-12-02T13:29:57,184 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:824.09765625|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967997
+2022-12-02T13:29:57,188 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:2788.2265625|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967997
+2022-12-02T13:29:57,191 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:78.1|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669967997
+2022-12-02T13:30:57,326 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968057
+2022-12-02T13:30:57,331 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:939.9674911499023|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968057
+2022-12-02T13:30:57,333 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:15.670818328857422|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968057
+2022-12-02T13:30:57,337 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:1.6|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968057
+2022-12-02T13:30:57,344 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:819.69140625|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968057
+2022-12-02T13:30:57,359 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:2792.625|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968057
+2022-12-02T13:30:57,362 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:78.2|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968057
+2022-12-02T13:31:57,190 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968117
+2022-12-02T13:31:57,193 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:939.9674911499023|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968117
+2022-12-02T13:31:57,195 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:15.670818328857422|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968117
+2022-12-02T13:31:57,200 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:1.6|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968117
+2022-12-02T13:31:57,202 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:813.61328125|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968117
+2022-12-02T13:31:57,205 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:2798.6953125|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968117
+2022-12-02T13:31:57,207 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:78.4|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968117
+2022-12-02T13:32:57,182 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968177
+2022-12-02T13:32:57,277 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:939.9674911499023|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968177
+2022-12-02T13:32:57,282 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:15.670818328857422|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968177
+2022-12-02T13:32:57,284 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:1.6|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968177
+2022-12-02T13:32:57,286 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:815.04296875|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968177
+2022-12-02T13:32:57,289 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:2797.2734375|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968177
+2022-12-02T13:32:57,292 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:78.4|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968177
+2022-12-02T13:33:57,308 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968237
+2022-12-02T13:33:57,311 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:939.9674911499023|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968237
+2022-12-02T13:33:57,313 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:15.670818328857422|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968237
+2022-12-02T13:33:57,316 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:1.6|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968237
+2022-12-02T13:33:57,319 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:813.6640625|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968237
+2022-12-02T13:33:57,321 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:2798.65234375|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968237
+2022-12-02T13:33:57,324 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:78.4|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968237
+2022-12-02T13:34:57,154 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968297
+2022-12-02T13:34:57,164 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:939.9674911499023|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968297
+2022-12-02T13:34:57,166 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:15.670818328857422|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968297
+2022-12-02T13:34:57,169 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:1.6|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968297
+2022-12-02T13:34:57,173 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:813.4296875|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968297
+2022-12-02T13:34:57,175 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:2798.88671875|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968297
+2022-12-02T13:34:57,178 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:78.4|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968297
+2022-12-02T13:35:57,191 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968357
+2022-12-02T13:35:57,194 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:939.9674911499023|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968357
+2022-12-02T13:35:57,196 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:15.670818328857422|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968357
+2022-12-02T13:35:57,199 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:1.6|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968357
+2022-12-02T13:35:57,201 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:791.15625|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968357
+2022-12-02T13:35:57,203 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:2821.16015625|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968357
+2022-12-02T13:35:57,205 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:79.0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968357
+2022-12-02T13:36:58,743 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:8.3|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968418
+2022-12-02T13:36:58,823 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:939.9674911499023|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968418
+2022-12-02T13:36:58,883 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:15.670818328857422|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968418
+2022-12-02T13:36:59,125 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:1.6|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968418
+2022-12-02T13:36:59,524 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:790.98828125|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968418
+2022-12-02T13:36:59,581 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:2821.328125|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968418
+2022-12-02T13:36:59,674 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:79.0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968418
+2022-12-02T13:37:57,290 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968477
+2022-12-02T13:37:57,368 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:939.9674911499023|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968477
+2022-12-02T13:37:57,375 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:15.670818328857422|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968477
+2022-12-02T13:37:57,391 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:1.6|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968477
+2022-12-02T13:37:57,400 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:792.51171875|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968477
+2022-12-02T13:37:57,413 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:2819.8046875|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968477
+2022-12-02T13:37:57,419 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:79.0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968477
+2022-12-02T13:39:36,647 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager - Initializing plugins manager...
+2022-12-02T13:39:36,647 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager - Initializing plugins manager...
+2022-12-02T13:39:37,258 [INFO ] main org.pytorch.serve.ModelServer - 
+Torchserve version: 0.5.2
+TS Home: /home/yash_unix/.local/lib/python3.8/site-packages
+Current directory: /mnt/d/carScan/TS_8
+Temp directory: /tmp
+Number of GPUs: 0
+Number of CPUs: 4
+Max heap size: 942 M
+Python executable: /usr/bin/python3.8
+Config file: /home/yash_unix/config.properties
+Inference address: http://0.0.0.0:8080
+Management address: http://0.0.0.0:8081
+Metrics address: http://0.0.0.0:8082
+Model Store: /mnt/d/carScan/TS_8/model_store
+Initial Models: all
+Log dir: /mnt/d/carScan/TS_8/logs
+Metrics dir: /mnt/d/carScan/TS_8/logs
+Netty threads: 0
+Netty client threads: 0
+Default workers per model: 4
+Blacklist Regex: N/A
+Maximum Response Size: 6553500
+Maximum Request Size: 10485760
+Limit Maximum Image Pixels: true
+Prefer direct buffer: false
+Allowed Urls: [file://.*|http(s)?://.*]
+Custom python dependency for model allowed: false
+Metrics report format: prometheus
+Enable metrics API: true
+Workflow Store: /mnt/d/carScan/TS_8/model_store
+Model config: N/A
+2022-12-02T13:39:37,258 [INFO ] main org.pytorch.serve.ModelServer - 
+Torchserve version: 0.5.2
+TS Home: /home/yash_unix/.local/lib/python3.8/site-packages
+Current directory: /mnt/d/carScan/TS_8
+Temp directory: /tmp
+Number of GPUs: 0
+Number of CPUs: 4
+Max heap size: 942 M
+Python executable: /usr/bin/python3.8
+Config file: /home/yash_unix/config.properties
+Inference address: http://0.0.0.0:8080
+Management address: http://0.0.0.0:8081
+Metrics address: http://0.0.0.0:8082
+Model Store: /mnt/d/carScan/TS_8/model_store
+Initial Models: all
+Log dir: /mnt/d/carScan/TS_8/logs
+Metrics dir: /mnt/d/carScan/TS_8/logs
+Netty threads: 0
+Netty client threads: 0
+Default workers per model: 4
+Blacklist Regex: N/A
+Maximum Response Size: 6553500
+Maximum Request Size: 10485760
+Limit Maximum Image Pixels: true
+Prefer direct buffer: false
+Allowed Urls: [file://.*|http(s)?://.*]
+Custom python dependency for model allowed: false
+Metrics report format: prometheus
+Enable metrics API: true
+Workflow Store: /mnt/d/carScan/TS_8/model_store
+Model config: N/A
+2022-12-02T13:39:37,304 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager -  Loading snapshot serializer plugin...
+2022-12-02T13:39:37,304 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager -  Loading snapshot serializer plugin...
+2022-12-02T13:39:37,506 [DEBUG] main org.pytorch.serve.ModelServer - Loading models from model store: carpartsdetection.mar
+2022-12-02T13:39:37,506 [DEBUG] main org.pytorch.serve.ModelServer - Loading models from model store: carpartsdetection.mar
+2022-12-02T13:41:59,049 [DEBUG] main org.pytorch.serve.wlm.ModelVersionedRefs - Adding new version 3.0 for model carpartsdetection
+2022-12-02T13:41:59,049 [DEBUG] main org.pytorch.serve.wlm.ModelVersionedRefs - Adding new version 3.0 for model carpartsdetection
+2022-12-02T13:41:59,052 [DEBUG] main org.pytorch.serve.wlm.ModelVersionedRefs - Setting default version to 3.0 for model carpartsdetection
+2022-12-02T13:41:59,052 [DEBUG] main org.pytorch.serve.wlm.ModelVersionedRefs - Setting default version to 3.0 for model carpartsdetection
+2022-12-02T13:41:59,054 [INFO ] main org.pytorch.serve.wlm.ModelManager - Model carpartsdetection loaded.
+2022-12-02T13:41:59,054 [INFO ] main org.pytorch.serve.wlm.ModelManager - Model carpartsdetection loaded.
+2022-12-02T13:41:59,057 [DEBUG] main org.pytorch.serve.wlm.ModelManager - updateModel: carpartsdetection, count: 4
+2022-12-02T13:41:59,057 [DEBUG] main org.pytorch.serve.wlm.ModelManager - updateModel: carpartsdetection, count: 4
+2022-12-02T13:41:59,112 [DEBUG] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3.8, /home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9000]
+2022-12-02T13:41:59,112 [DEBUG] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3.8, /home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9003]
+2022-12-02T13:41:59,113 [DEBUG] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3.8, /home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9002]
+2022-12-02T13:41:59,112 [DEBUG] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3.8, /home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9001]
+2022-12-02T13:41:59,113 [DEBUG] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3.8, /home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9002]
+2022-12-02T13:41:59,112 [DEBUG] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3.8, /home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9001]
+2022-12-02T13:41:59,112 [DEBUG] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3.8, /home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9000]
+2022-12-02T13:41:59,112 [DEBUG] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3.8, /home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9003]
+2022-12-02T13:41:59,146 [INFO ] main org.pytorch.serve.ModelServer - Initialize Inference server with: EpollServerSocketChannel.
+2022-12-02T13:41:59,146 [INFO ] main org.pytorch.serve.ModelServer - Initialize Inference server with: EpollServerSocketChannel.
+2022-12-02T13:41:59,613 [INFO ] main org.pytorch.serve.ModelServer - Inference API bind to: http://0.0.0.0:8080
+2022-12-02T13:41:59,613 [INFO ] main org.pytorch.serve.ModelServer - Inference API bind to: http://0.0.0.0:8080
+2022-12-02T13:41:59,616 [INFO ] main org.pytorch.serve.ModelServer - Initialize Management server with: EpollServerSocketChannel.
+2022-12-02T13:41:59,616 [INFO ] main org.pytorch.serve.ModelServer - Initialize Management server with: EpollServerSocketChannel.
+2022-12-02T13:41:59,632 [INFO ] main org.pytorch.serve.ModelServer - Management API bind to: http://0.0.0.0:8081
+2022-12-02T13:41:59,632 [INFO ] main org.pytorch.serve.ModelServer - Management API bind to: http://0.0.0.0:8081
+2022-12-02T13:41:59,635 [INFO ] main org.pytorch.serve.ModelServer - Initialize Metrics server with: EpollServerSocketChannel.
+2022-12-02T13:41:59,635 [INFO ] main org.pytorch.serve.ModelServer - Initialize Metrics server with: EpollServerSocketChannel.
+2022-12-02T13:41:59,639 [INFO ] main org.pytorch.serve.ModelServer - Metrics API bind to: http://0.0.0.0:8082
+2022-12-02T13:41:59,639 [INFO ] main org.pytorch.serve.ModelServer - Metrics API bind to: http://0.0.0.0:8082
+2022-12-02T13:42:01,259 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-12-02T13:42:01,259 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-12-02T13:42:01,420 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968721
+2022-12-02T13:42:01,425 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:939.968334197998|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968721
+2022-12-02T13:42:01,428 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:15.669975280761719|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968721
+2022-12-02T13:42:01,455 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:1.6|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968721
+2022-12-02T13:42:01,460 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:2783.265625|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968721
+2022-12-02T13:42:01,477 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:829.08203125|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968721
+2022-12-02T13:42:01,481 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:26.1|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968721
+2022-12-02T13:42:02,196 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9003
+2022-12-02T13:42:02,196 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2022-12-02T13:42:02,198 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9002
+2022-12-02T13:42:02,222 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - [PID]295
+2022-12-02T13:42:02,224 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - [PID]294
+2022-12-02T13:42:02,227 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - [PID]292
+2022-12-02T13:42:02,233 [DEBUG] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9000-carpartsdetection_3.0 State change null -> WORKER_STARTED
+2022-12-02T13:42:02,233 [DEBUG] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9003-carpartsdetection_3.0 State change null -> WORKER_STARTED
+2022-12-02T13:42:02,233 [DEBUG] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9002-carpartsdetection_3.0 State change null -> WORKER_STARTED
+2022-12-02T13:42:02,233 [DEBUG] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9002-carpartsdetection_3.0 State change null -> WORKER_STARTED
+2022-12-02T13:42:02,232 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Torch worker started.
+2022-12-02T13:42:02,233 [DEBUG] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9000-carpartsdetection_3.0 State change null -> WORKER_STARTED
+2022-12-02T13:42:02,233 [DEBUG] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9003-carpartsdetection_3.0 State change null -> WORKER_STARTED
+2022-12-02T13:42:02,230 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Torch worker started.
+2022-12-02T13:42:02,228 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - Torch worker started.
+2022-12-02T13:42:02,241 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Python runtime: 3.8.15
+2022-12-02T13:42:02,246 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Python runtime: 3.8.15
+2022-12-02T13:42:02,247 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - Python runtime: 3.8.15
+2022-12-02T13:42:02,275 [INFO ] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9003
+2022-12-02T13:42:02,275 [INFO ] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9002
+2022-12-02T13:42:02,275 [INFO ] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9000
+2022-12-02T13:42:02,275 [INFO ] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9000
+2022-12-02T13:42:02,275 [INFO ] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9003
+2022-12-02T13:42:02,275 [INFO ] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9002
+2022-12-02T13:42:02,285 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9001
+2022-12-02T13:42:02,290 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - [PID]293
+2022-12-02T13:42:02,294 [DEBUG] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9001-carpartsdetection_3.0 State change null -> WORKER_STARTED
+2022-12-02T13:42:02,294 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Torch worker started.
+2022-12-02T13:42:02,294 [DEBUG] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9001-carpartsdetection_3.0 State change null -> WORKER_STARTED
+2022-12-02T13:42:02,297 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Python runtime: 3.8.15
+2022-12-02T13:42:02,300 [INFO ] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9001
+2022-12-02T13:42:02,300 [INFO ] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9001
+2022-12-02T13:42:02,339 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9002.
+2022-12-02T13:42:02,339 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9003.
+2022-12-02T13:42:02,340 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2022-12-02T13:42:02,339 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9001.
+2022-12-02T13:42:02,353 [INFO ] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669968722353
+2022-12-02T13:42:02,353 [INFO ] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669968722353
+2022-12-02T13:42:02,353 [INFO ] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669968722353
+2022-12-02T13:42:02,351 [INFO ] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669968722351
+2022-12-02T13:42:02,353 [INFO ] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669968722353
+2022-12-02T13:42:02,353 [INFO ] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669968722353
+2022-12-02T13:42:02,351 [INFO ] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669968722351
+2022-12-02T13:42:02,353 [INFO ] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669968722353
+2022-12-02T13:42:02,495 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - model_name: carpartsdetection, batchSize: 1
+2022-12-02T13:42:02,496 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - model_name: carpartsdetection, batchSize: 1
+2022-12-02T13:42:02,496 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - model_name: carpartsdetection, batchSize: 1
+2022-12-02T13:42:02,496 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - model_name: carpartsdetection, batchSize: 1
+2022-12-02T13:42:03,103 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Backend worker process died.
+2022-12-02T13:42:03,103 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Backend worker process died.
+2022-12-02T13:42:03,108 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-12-02T13:42:03,118 [INFO ] epollEventLoopGroup-5-4 org.pytorch.serve.wlm.WorkerThread - 9001 Worker disconnected. WORKER_STARTED
+2022-12-02T13:42:03,118 [INFO ] epollEventLoopGroup-5-4 org.pytorch.serve.wlm.WorkerThread - 9001 Worker disconnected. WORKER_STARTED
+2022-12-02T13:42:03,103 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Backend worker process died.
+2022-12-02T13:42:03,111 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-12-02T13:42:03,117 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py", line 189, in <module>
+2022-12-02T13:42:03,121 [INFO ] epollEventLoopGroup-5-3 org.pytorch.serve.wlm.WorkerThread - 9002 Worker disconnected. WORKER_STARTED
+2022-12-02T13:42:03,127 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-12-02T13:42:03,128 [DEBUG] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_STARTED
+2022-12-02T13:42:03,125 [INFO ] epollEventLoopGroup-5-1 org.pytorch.serve.wlm.WorkerThread - 9000 Worker disconnected. WORKER_STARTED
+2022-12-02T13:42:03,125 [INFO ] epollEventLoopGroup-5-1 org.pytorch.serve.wlm.WorkerThread - 9000 Worker disconnected. WORKER_STARTED
+2022-12-02T13:42:03,133 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -     worker.run_server()
+2022-12-02T13:42:03,130 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py", line 189, in <module>
+2022-12-02T13:42:03,142 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -     worker.run_server()
+2022-12-02T13:42:03,139 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py", line 161, in run_server
+2022-12-02T13:42:03,137 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py", line 189, in <module>
+2022-12-02T13:42:03,139 [DEBUG] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_STARTED
+2022-12-02T13:42:03,128 [DEBUG] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_STARTED
+2022-12-02T13:42:03,139 [DEBUG] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_STARTED
+2022-12-02T13:42:03,145 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py", line 161, in run_server
+2022-12-02T13:42:03,121 [INFO ] epollEventLoopGroup-5-3 org.pytorch.serve.wlm.WorkerThread - 9002 Worker disconnected. WORKER_STARTED
+2022-12-02T13:42:03,168 [DEBUG] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_STARTED
+2022-12-02T13:42:03,168 [DEBUG] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_STARTED
+2022-12-02T13:42:03,156 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -     worker.run_server()
+2022-12-02T13:42:03,151 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -     self.handle_connection(cl_socket)
+2022-12-02T13:42:03,162 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -     self.handle_connection(cl_socket)
+2022-12-02T13:42:03,187 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py", line 161, in run_server
+2022-12-02T13:42:03,190 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py", line 123, in handle_connection
+2022-12-02T13:42:03,193 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py", line 123, in handle_connection
+2022-12-02T13:42:03,195 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -     service, result, code = self.load_model(msg)
+2022-12-02T13:42:03,195 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -     self.handle_connection(cl_socket)
+2022-12-02T13:42:03,196 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -     service, result, code = self.load_model(msg)
+2022-12-02T13:42:03,198 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py", line 95, in load_model
+2022-12-02T13:42:03,201 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py", line 95, in load_model
+2022-12-02T13:42:03,199 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py", line 123, in handle_connection
+2022-12-02T13:42:03,206 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -     service = model_loader.load(model_name, model_dir, handler, gpu,
+2022-12-02T13:42:03,212 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -     service, result, code = self.load_model(msg)
+2022-12-02T13:42:03,211 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -     service = model_loader.load(model_name, model_dir, handler, gpu,
+2022-12-02T13:42:03,214 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_loader.py", line 112, in load
+2022-12-02T13:42:03,216 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py", line 95, in load_model
+2022-12-02T13:42:03,224 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -     service = model_loader.load(model_name, model_dir, handler, gpu,
+2022-12-02T13:42:03,218 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_loader.py", line 112, in load
+2022-12-02T13:42:03,230 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_loader.py", line 112, in load
+2022-12-02T13:42:03,223 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -     initialize_fn(service.context)
+2022-12-02T13:42:03,232 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -     initialize_fn(service.context)
+2022-12-02T13:42:03,243 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -   File "/tmp/models/229f6d9e8d9c4af786e4c7f940e92dff/handler.py", line 78, in initialize
+2022-12-02T13:42:03,236 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -   File "/tmp/models/229f6d9e8d9c4af786e4c7f940e92dff/handler.py", line 78, in initialize
+2022-12-02T13:42:03,234 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -     initialize_fn(service.context)
+2022-12-02T13:42:03,251 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -     zip_ref.extractall(folder_name)
+2022-12-02T13:42:03,255 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -   File "/tmp/models/229f6d9e8d9c4af786e4c7f940e92dff/handler.py", line 78, in initialize
+2022-12-02T13:42:03,248 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -     zip_ref.extractall(folder_name)
+2022-12-02T13:42:03,257 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -   File "/usr/lib/python3.8/zipfile.py", line 1647, in extractall
+2022-12-02T13:42:03,258 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -     zip_ref.extractall(folder_name)
+2022-12-02T13:42:03,265 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -     self._extract_member(zipinfo, path, pwd)
+2022-12-02T13:42:03,259 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -   File "/usr/lib/python3.8/zipfile.py", line 1647, in extractall
+2022-12-02T13:42:03,267 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -   File "/usr/lib/python3.8/zipfile.py", line 1647, in extractall
+2022-12-02T13:42:03,269 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -   File "/usr/lib/python3.8/zipfile.py", line 1693, in _extract_member
+2022-12-02T13:42:03,274 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -     self._extract_member(zipinfo, path, pwd)
+2022-12-02T13:42:03,273 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -     self._extract_member(zipinfo, path, pwd)
+2022-12-02T13:42:03,183 [DEBUG] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend worker monitoring thread interrupted or backend worker process died.
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1679) ~[?:?]
+	at java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:435) ~[?:?]
+	at org.pytorch.serve.wlm.WorkerThread.run(WorkerThread.java:189) [model-server.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-12-02T13:42:03,189 [DEBUG] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend worker monitoring thread interrupted or backend worker process died.
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1679) ~[?:?]
+	at java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:435) ~[?:?]
+	at org.pytorch.serve.wlm.WorkerThread.run(WorkerThread.java:189) [model-server.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-12-02T13:42:03,160 [DEBUG] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend worker monitoring thread interrupted or backend worker process died.
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1679) ~[?:?]
+	at java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:435) ~[?:?]
+	at org.pytorch.serve.wlm.WorkerThread.run(WorkerThread.java:189) [model-server.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-12-02T13:42:03,160 [DEBUG] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend worker monitoring thread interrupted or backend worker process died.
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1679) ~[?:?]
+	at java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:435) ~[?:?]
+	at org.pytorch.serve.wlm.WorkerThread.run(WorkerThread.java:189) [model-server.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-12-02T13:42:03,278 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -     os.makedirs(upperdirs)
+2022-12-02T13:42:03,299 [WARN ] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.BatchAggregator - Load model failed: carpartsdetection, error: Worker died.
+2022-12-02T13:42:03,282 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -   File "/usr/lib/python3.8/zipfile.py", line 1693, in _extract_member
+2022-12-02T13:42:03,183 [DEBUG] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend worker monitoring thread interrupted or backend worker process died.
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1679) ~[?:?]
+	at java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:435) ~[?:?]
+	at org.pytorch.serve.wlm.WorkerThread.run(WorkerThread.java:189) [model-server.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-12-02T13:42:03,189 [DEBUG] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend worker monitoring thread interrupted or backend worker process died.
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1679) ~[?:?]
+	at java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:435) ~[?:?]
+	at org.pytorch.serve.wlm.WorkerThread.run(WorkerThread.java:189) [model-server.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-12-02T13:42:03,299 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -   File "/usr/lib/python3.8/os.py", line 223, in makedirs
+2022-12-02T13:42:03,278 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -   File "/usr/lib/python3.8/zipfile.py", line 1693, in _extract_member
+2022-12-02T13:42:03,299 [WARN ] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.BatchAggregator - Load model failed: carpartsdetection, error: Worker died.
+2022-12-02T13:42:03,311 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -     os.makedirs(upperdirs)
+2022-12-02T13:42:03,308 [WARN ] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.BatchAggregator - Load model failed: carpartsdetection, error: Worker died.
+2022-12-02T13:42:03,307 [WARN ] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.BatchAggregator - Load model failed: carpartsdetection, error: Worker died.
+2022-12-02T13:42:03,305 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -     os.makedirs(upperdirs)
+2022-12-02T13:42:03,312 [DEBUG] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9000-carpartsdetection_3.0 State change WORKER_STARTED -> WORKER_STOPPED
+2022-12-02T13:42:03,312 [DEBUG] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9000-carpartsdetection_3.0 State change WORKER_STARTED -> WORKER_STOPPED
+2022-12-02T13:42:03,313 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -   File "/usr/lib/python3.8/os.py", line 223, in makedirs
+2022-12-02T13:42:03,318 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -   File "/usr/lib/python3.8/os.py", line 223, in makedirs
+2022-12-02T13:42:03,307 [WARN ] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.BatchAggregator - Load model failed: carpartsdetection, error: Worker died.
+2022-12-02T13:42:03,334 [DEBUG] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9002-carpartsdetection_3.0 State change WORKER_STARTED -> WORKER_STOPPED
+2022-12-02T13:42:03,334 [DEBUG] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9002-carpartsdetection_3.0 State change WORKER_STARTED -> WORKER_STOPPED
+2022-12-02T13:42:03,341 [WARN ] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9002-carpartsdetection_3.0-stderr
+2022-12-02T13:42:03,341 [WARN ] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9002-carpartsdetection_3.0-stderr
+2022-12-02T13:42:03,345 [WARN ] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9002-carpartsdetection_3.0-stdout
+2022-12-02T13:42:03,345 [WARN ] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9002-carpartsdetection_3.0-stdout
+2022-12-02T13:42:03,353 [INFO ] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Retry worker: 9002 in 1 seconds.
+2022-12-02T13:42:03,353 [INFO ] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Retry worker: 9002 in 1 seconds.
+2022-12-02T13:42:03,332 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -     mkdir(name, mode)
+2022-12-02T13:42:03,325 [WARN ] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9000-carpartsdetection_3.0-stderr
+2022-12-02T13:42:03,325 [WARN ] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9000-carpartsdetection_3.0-stderr
+2022-12-02T13:42:03,359 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - FileExistsError: [Errno 17] File exists: 'models'
+2022-12-02T13:42:03,362 [WARN ] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9000-carpartsdetection_3.0-stdout
+2022-12-02T13:42:03,362 [WARN ] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9000-carpartsdetection_3.0-stdout
+2022-12-02T13:42:03,369 [INFO ] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Retry worker: 9000 in 1 seconds.
+2022-12-02T13:42:03,369 [INFO ] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Retry worker: 9000 in 1 seconds.
+2022-12-02T13:42:03,309 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -     mkdir(name, mode)
+2022-12-02T13:42:03,326 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -     mkdir(name, mode)
+2022-12-02T13:42:03,375 [INFO ] W-9002-carpartsdetection_3.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9002-carpartsdetection_3.0-stdout
+2022-12-02T13:42:03,375 [INFO ] W-9002-carpartsdetection_3.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9002-carpartsdetection_3.0-stdout
+2022-12-02T13:42:03,308 [WARN ] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.BatchAggregator - Load model failed: carpartsdetection, error: Worker died.
+2022-12-02T13:42:03,381 [DEBUG] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9001-carpartsdetection_3.0 State change WORKER_STARTED -> WORKER_STOPPED
+2022-12-02T13:42:03,381 [DEBUG] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9001-carpartsdetection_3.0 State change WORKER_STARTED -> WORKER_STOPPED
+2022-12-02T13:42:03,384 [WARN ] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9001-carpartsdetection_3.0-stderr
+2022-12-02T13:42:03,384 [WARN ] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9001-carpartsdetection_3.0-stderr
+2022-12-02T13:42:03,388 [WARN ] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9001-carpartsdetection_3.0-stdout
+2022-12-02T13:42:03,388 [WARN ] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9001-carpartsdetection_3.0-stdout
+2022-12-02T13:42:03,376 [INFO ] W-9002-carpartsdetection_3.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9002-carpartsdetection_3.0-stderr
+2022-12-02T13:42:03,374 [INFO ] W-9000-carpartsdetection_3.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-carpartsdetection_3.0-stdout
+2022-12-02T13:42:03,374 [INFO ] W-9000-carpartsdetection_3.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-carpartsdetection_3.0-stdout
+2022-12-02T13:42:03,381 [INFO ] W-9000-carpartsdetection_3.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-carpartsdetection_3.0-stderr
+2022-12-02T13:42:03,376 [INFO ] W-9002-carpartsdetection_3.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9002-carpartsdetection_3.0-stderr
+2022-12-02T13:42:03,392 [INFO ] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Retry worker: 9001 in 1 seconds.
+2022-12-02T13:42:03,381 [INFO ] W-9000-carpartsdetection_3.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-carpartsdetection_3.0-stderr
+2022-12-02T13:42:03,392 [INFO ] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Retry worker: 9001 in 1 seconds.
+2022-12-02T13:42:03,406 [INFO ] W-9001-carpartsdetection_3.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9001-carpartsdetection_3.0-stdout
+2022-12-02T13:42:03,406 [INFO ] W-9001-carpartsdetection_3.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9001-carpartsdetection_3.0-stderr
+2022-12-02T13:42:03,406 [INFO ] W-9001-carpartsdetection_3.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9001-carpartsdetection_3.0-stdout
+2022-12-02T13:42:03,406 [INFO ] W-9001-carpartsdetection_3.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9001-carpartsdetection_3.0-stderr
+2022-12-02T13:42:04,302 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - Fusing layers... 
+2022-12-02T13:42:04,303 [WARN ] W-9003-carpartsdetection_3.0-stderr MODEL_LOG - Fusing layers... 
+2022-12-02T13:42:04,353 [DEBUG] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3.8, /home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9002]
+2022-12-02T13:42:04,353 [DEBUG] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3.8, /home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9002]
+2022-12-02T13:42:04,369 [DEBUG] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3.8, /home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9000]
+2022-12-02T13:42:04,369 [DEBUG] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3.8, /home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9000]
+2022-12-02T13:42:04,393 [DEBUG] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3.8, /home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9001]
+2022-12-02T13:42:04,393 [DEBUG] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3.8, /home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9001]
+2022-12-02T13:42:05,922 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - yolov7-seg summary: 325 layers, 37923386 parameters, 0 gradients
+2022-12-02T13:42:05,923 [WARN ] W-9003-carpartsdetection_3.0-stderr MODEL_LOG - yolov7-seg summary: 325 layers, 37923386 parameters, 0 gradients
+2022-12-02T13:42:05,936 [INFO ] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 3440
+2022-12-02T13:42:05,936 [INFO ] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 3440
+2022-12-02T13:42:05,940 [DEBUG] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9003-carpartsdetection_3.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-12-02T13:42:05,940 [DEBUG] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9003-carpartsdetection_3.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-12-02T13:42:05,942 [INFO ] W-9003-carpartsdetection_3.0 TS_METRICS - W-9003-carpartsdetection_3.0.ms:6834|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968725
+2022-12-02T13:42:05,945 [INFO ] W-9003-carpartsdetection_3.0 TS_METRICS - WorkerThreadTime.ms:153|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:42:06,166 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9001
+2022-12-02T13:42:06,168 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - [PID]347
+2022-12-02T13:42:06,170 [DEBUG] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9001-carpartsdetection_3.0 State change WORKER_STOPPED -> WORKER_STARTED
+2022-12-02T13:42:06,170 [DEBUG] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9001-carpartsdetection_3.0 State change WORKER_STOPPED -> WORKER_STARTED
+2022-12-02T13:42:06,170 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Torch worker started.
+2022-12-02T13:42:06,173 [INFO ] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9001
+2022-12-02T13:42:06,171 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2022-12-02T13:42:06,173 [INFO ] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9001
+2022-12-02T13:42:06,175 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Python runtime: 3.8.15
+2022-12-02T13:42:06,178 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - [PID]344
+2022-12-02T13:42:06,182 [DEBUG] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9000-carpartsdetection_3.0 State change WORKER_STOPPED -> WORKER_STARTED
+2022-12-02T13:42:06,182 [DEBUG] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9000-carpartsdetection_3.0 State change WORKER_STOPPED -> WORKER_STARTED
+2022-12-02T13:42:06,186 [INFO ] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9000
+2022-12-02T13:42:06,186 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9001.
+2022-12-02T13:42:06,182 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Torch worker started.
+2022-12-02T13:42:06,185 [INFO ] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669968726185
+2022-12-02T13:42:06,185 [INFO ] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669968726185
+2022-12-02T13:42:06,186 [INFO ] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9000
+2022-12-02T13:42:06,191 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Python runtime: 3.8.15
+2022-12-02T13:42:06,203 [INFO ] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669968726203
+2022-12-02T13:42:06,203 [INFO ] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669968726203
+2022-12-02T13:42:06,202 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2022-12-02T13:42:06,257 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - model_name: carpartsdetection, batchSize: 1
+2022-12-02T13:42:06,258 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - model_name: carpartsdetection, batchSize: 1
+2022-12-02T13:42:06,267 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9002
+2022-12-02T13:42:06,271 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - [PID]341
+2022-12-02T13:42:06,274 [DEBUG] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9002-carpartsdetection_3.0 State change WORKER_STOPPED -> WORKER_STARTED
+2022-12-02T13:42:06,274 [DEBUG] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9002-carpartsdetection_3.0 State change WORKER_STOPPED -> WORKER_STARTED
+2022-12-02T13:42:06,274 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Torch worker started.
+2022-12-02T13:42:06,277 [INFO ] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9002
+2022-12-02T13:42:06,277 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Python runtime: 3.8.15
+2022-12-02T13:42:06,277 [INFO ] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9002
+2022-12-02T13:42:06,284 [INFO ] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669968726284
+2022-12-02T13:42:06,284 [INFO ] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669968726284
+2022-12-02T13:42:06,284 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9002.
+2022-12-02T13:42:06,342 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - model_name: carpartsdetection, batchSize: 1
+2022-12-02T13:42:08,564 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Fusing layers... 
+2022-12-02T13:42:08,571 [WARN ] W-9001-carpartsdetection_3.0-stderr MODEL_LOG - Fusing layers... 
+2022-12-02T13:42:09,833 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Fusing layers... 
+2022-12-02T13:42:09,835 [WARN ] W-9002-carpartsdetection_3.0-stderr MODEL_LOG - Fusing layers... 
+2022-12-02T13:42:10,716 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Fusing layers... 
+2022-12-02T13:42:10,720 [WARN ] W-9000-carpartsdetection_3.0-stderr MODEL_LOG - Fusing layers... 
+2022-12-02T13:42:13,845 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - yolov7-seg summary: 325 layers, 37923386 parameters, 0 gradients
+2022-12-02T13:42:13,845 [WARN ] W-9001-carpartsdetection_3.0-stderr MODEL_LOG - yolov7-seg summary: 325 layers, 37923386 parameters, 0 gradients
+2022-12-02T13:42:13,876 [INFO ] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 7610
+2022-12-02T13:42:13,876 [INFO ] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 7610
+2022-12-02T13:42:13,879 [DEBUG] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9001-carpartsdetection_3.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-12-02T13:42:13,881 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - yolov7-seg summary: 325 layers, 37923386 parameters, 0 gradients
+2022-12-02T13:42:13,882 [WARN ] W-9000-carpartsdetection_3.0-stderr MODEL_LOG - yolov7-seg summary: 325 layers, 37923386 parameters, 0 gradients
+2022-12-02T13:42:13,879 [DEBUG] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9001-carpartsdetection_3.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-12-02T13:42:13,888 [INFO ] W-9001-carpartsdetection_3.0 TS_METRICS - W-9001-carpartsdetection_3.0.ms:14781|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968733
+2022-12-02T13:42:13,893 [INFO ] W-9001-carpartsdetection_3.0 TS_METRICS - WorkerThreadTime.ms:97|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:42:13,903 [INFO ] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 7635
+2022-12-02T13:42:13,903 [INFO ] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 7635
+2022-12-02T13:42:13,910 [DEBUG] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9000-carpartsdetection_3.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-12-02T13:42:13,910 [DEBUG] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9000-carpartsdetection_3.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-12-02T13:42:13,914 [INFO ] W-9000-carpartsdetection_3.0 TS_METRICS - W-9000-carpartsdetection_3.0.ms:14815|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968733
+2022-12-02T13:42:13,916 [INFO ] W-9000-carpartsdetection_3.0 TS_METRICS - WorkerThreadTime.ms:78|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:42:14,069 [WARN ] W-9002-carpartsdetection_3.0-stderr MODEL_LOG - yolov7-seg summary: 325 layers, 37923386 parameters, 0 gradients
+2022-12-02T13:42:14,069 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - yolov7-seg summary: 325 layers, 37923386 parameters, 0 gradients
+2022-12-02T13:42:14,082 [INFO ] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 7740
+2022-12-02T13:42:14,082 [INFO ] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 7740
+2022-12-02T13:42:14,085 [DEBUG] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9002-carpartsdetection_3.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-12-02T13:42:14,085 [DEBUG] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9002-carpartsdetection_3.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-12-02T13:42:14,087 [INFO ] W-9002-carpartsdetection_3.0 TS_METRICS - W-9002-carpartsdetection_3.0.ms:14979|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968734
+2022-12-02T13:42:14,090 [INFO ] W-9002-carpartsdetection_3.0 TS_METRICS - WorkerThreadTime.ms:66|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:42:24,134 [INFO ] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669968744134
+2022-12-02T13:42:24,134 [INFO ] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669968744134
+2022-12-02T13:42:24,163 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - Backend received inference at: 1669968744
+2022-12-02T13:42:24,166 [WARN ] W-9003-carpartsdetection_3.0-stderr MODEL_LOG - Backend received inference at: 1669968744
+2022-12-02T13:42:28,717 [INFO ] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 4577
+2022-12-02T13:42:28,716 [INFO ] W-9003-carpartsdetection_3.0-stderr MODEL_METRICS - HandlerTime.Milliseconds:4543.27|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:7029f4a2-1f0a-45da-b053-9cb23ee240d8,timestamp:1669968748
+2022-12-02T13:42:28,716 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_METRICS - HandlerTime.Milliseconds:4543.27|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:7029f4a2-1f0a-45da-b053-9cb23ee240d8,timestamp:1669968748
+2022-12-02T13:42:28,717 [INFO ] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 4577
+2022-12-02T13:42:28,721 [INFO ] W-9003-carpartsdetection_3.0-stderr MODEL_METRICS - PredictionTime.Milliseconds:4546.99|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:7029f4a2-1f0a-45da-b053-9cb23ee240d8,timestamp:1669968748
+2022-12-02T13:42:28,722 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_METRICS - PredictionTime.Milliseconds:4546.99|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:7029f4a2-1f0a-45da-b053-9cb23ee240d8,timestamp:1669968748
+2022-12-02T13:42:28,729 [INFO ] W-9003-carpartsdetection_3.0 ACCESS_LOG - /[0:0:0:0:0:0:0:1%0]:56882 "POST /predictions/carpartsdetection HTTP/1.1" 200 4683
+2022-12-02T13:42:28,732 [INFO ] W-9003-carpartsdetection_3.0 TS_METRICS - Requests2XX.Count:1|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:42:28,735 [DEBUG] W-9003-carpartsdetection_3.0 org.pytorch.serve.job.Job - Waiting time ns: 4273456, Backend time ns: 4600870983
+2022-12-02T13:42:28,735 [DEBUG] W-9003-carpartsdetection_3.0 org.pytorch.serve.job.Job - Waiting time ns: 4273456, Backend time ns: 4600870983
+2022-12-02T13:42:28,738 [INFO ] W-9003-carpartsdetection_3.0 TS_METRICS - QueueTime.ms:4|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:42:28,740 [INFO ] W-9003-carpartsdetection_3.0 TS_METRICS - WorkerThreadTime.ms:29|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:43:01,369 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968781
+2022-12-02T13:43:01,375 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:939.9674911499023|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968781
+2022-12-02T13:43:01,380 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:15.670818328857422|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968781
+2022-12-02T13:43:01,383 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:1.6|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968781
+2022-12-02T13:43:01,388 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:945.71484375|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968781
+2022-12-02T13:43:01,393 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:2666.5703125|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968781
+2022-12-02T13:43:01,397 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:74.9|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968781
+2022-12-02T13:44:01,295 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968841
+2022-12-02T13:44:01,302 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:939.9674911499023|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968841
+2022-12-02T13:44:01,311 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:15.670818328857422|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968841
+2022-12-02T13:44:01,317 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:1.6|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968841
+2022-12-02T13:44:01,323 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:936.87109375|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968841
+2022-12-02T13:44:01,328 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:2675.40625|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968841
+2022-12-02T13:44:01,334 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:75.1|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968841
+2022-12-02T13:45:01,421 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968901
+2022-12-02T13:45:01,432 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:939.9674911499023|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968901
+2022-12-02T13:45:01,439 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:15.670818328857422|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968901
+2022-12-02T13:45:01,447 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:1.6|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968901
+2022-12-02T13:45:01,454 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:932.68359375|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968901
+2022-12-02T13:45:01,462 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:2679.58203125|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968901
+2022-12-02T13:45:01,469 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:75.2|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968901
+2022-12-02T13:46:01,284 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968961
+2022-12-02T13:46:01,287 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:939.9674911499023|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968961
+2022-12-02T13:46:01,291 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:15.670818328857422|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968961
+2022-12-02T13:46:01,294 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:1.6|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968961
+2022-12-02T13:46:01,298 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:925.1640625|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968961
+2022-12-02T13:46:01,304 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:2687.1171875|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968961
+2022-12-02T13:46:01,308 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:75.4|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669968961
+2022-12-02T13:46:11,645 [INFO ] epollEventLoopGroup-3-3 ACCESS_LOG - /[0:0:0:0:0:0:0:1%0]:43640 "GET /predictions/car_parts HTTP/1.1" 404 153
+2022-12-02T13:46:11,650 [INFO ] epollEventLoopGroup-3-3 TS_METRICS - Requests4XX.Count:1|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:46:22,288 [INFO ] epollEventLoopGroup-3-4 ACCESS_LOG - /[0:0:0:0:0:0:0:1%0]:51166 "GET /predictions/car_parts HTTP/1.1" 404 18
+2022-12-02T13:46:22,292 [INFO ] epollEventLoopGroup-3-4 TS_METRICS - Requests4XX.Count:1|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:46:52,862 [INFO ] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669969012862
+2022-12-02T13:46:52,862 [INFO ] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669969012862
+2022-12-02T13:46:52,955 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Backend received inference at: 1669969012
+2022-12-02T13:46:52,955 [WARN ] W-9001-carpartsdetection_3.0-stderr MODEL_LOG - Backend received inference at: 1669969012
+2022-12-02T13:46:59,673 [INFO ] W-9001-carpartsdetection_3.0-stderr MODEL_METRICS - HandlerTime.Milliseconds:6666.25|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:3d890290-7810-4df2-bb3e-eaaae6c9c18c,timestamp:1669969019
+2022-12-02T13:46:59,672 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_METRICS - HandlerTime.Milliseconds:6666.25|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:3d890290-7810-4df2-bb3e-eaaae6c9c18c,timestamp:1669969019
+2022-12-02T13:46:59,708 [INFO ] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 6833
+2022-12-02T13:46:59,708 [INFO ] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 6833
+2022-12-02T13:46:59,705 [INFO ] W-9001-carpartsdetection_3.0-stderr MODEL_METRICS - PredictionTime.Milliseconds:6674.59|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:3d890290-7810-4df2-bb3e-eaaae6c9c18c,timestamp:1669969019
+2022-12-02T13:46:59,708 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_METRICS - PredictionTime.Milliseconds:6674.59|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:3d890290-7810-4df2-bb3e-eaaae6c9c18c,timestamp:1669969019
+2022-12-02T13:46:59,719 [INFO ] W-9001-carpartsdetection_3.0 ACCESS_LOG - /[0:0:0:0:0:0:0:1%0]:54102 "GET /predictions/carpartsdetection HTTP/1.1" 200 6862
+2022-12-02T13:46:59,726 [INFO ] W-9001-carpartsdetection_3.0 TS_METRICS - Requests2XX.Count:1|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:46:59,735 [DEBUG] W-9001-carpartsdetection_3.0 org.pytorch.serve.job.Job - Waiting time ns: 4409593, Backend time ns: 6872727617
+2022-12-02T13:46:59,735 [DEBUG] W-9001-carpartsdetection_3.0 org.pytorch.serve.job.Job - Waiting time ns: 4409593, Backend time ns: 6872727617
+2022-12-02T13:46:59,740 [INFO ] W-9001-carpartsdetection_3.0 TS_METRICS - QueueTime.ms:4|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:46:59,752 [INFO ] W-9001-carpartsdetection_3.0 TS_METRICS - WorkerThreadTime.ms:55|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:47:01,350 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669969021
+2022-12-02T13:47:01,356 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:939.9674911499023|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669969021
+2022-12-02T13:47:01,365 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:15.670818328857422|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669969021
+2022-12-02T13:47:01,372 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:1.6|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669969021
+2022-12-02T13:47:01,379 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:690.21875|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669969021
+2022-12-02T13:47:01,384 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:2922.76171875|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669969021
+2022-12-02T13:47:01,390 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:81.7|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669969021
+2022-12-02T13:47:11,779 [INFO ] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669969031778
+2022-12-02T13:47:11,779 [INFO ] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669969031778
+2022-12-02T13:47:11,961 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Backend received inference at: 1669969031
+2022-12-02T13:47:11,961 [WARN ] W-9000-carpartsdetection_3.0-stderr MODEL_LOG - Backend received inference at: 1669969031
+2022-12-02T13:47:25,041 [INFO ] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 13226
+2022-12-02T13:47:25,041 [INFO ] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 13226
+2022-12-02T13:47:25,026 [INFO ] W-9000-carpartsdetection_3.0-stderr MODEL_METRICS - HandlerTime.Milliseconds:12812.33|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:87e947a3-d13e-4077-a2d6-8bfd26a9669b,timestamp:1669969044
+2022-12-02T13:47:25,032 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_METRICS - HandlerTime.Milliseconds:12812.33|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:87e947a3-d13e-4077-a2d6-8bfd26a9669b,timestamp:1669969044
+2022-12-02T13:47:25,108 [INFO ] W-9000-carpartsdetection_3.0-stderr MODEL_METRICS - PredictionTime.Milliseconds:12844.42|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:87e947a3-d13e-4077-a2d6-8bfd26a9669b,timestamp:1669969044
+2022-12-02T13:47:25,128 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_METRICS - PredictionTime.Milliseconds:12844.42|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:87e947a3-d13e-4077-a2d6-8bfd26a9669b,timestamp:1669969044
+2022-12-02T13:47:25,118 [INFO ] W-9000-carpartsdetection_3.0 ACCESS_LOG - /[0:0:0:0:0:0:0:1%0]:45568 "GET /predictions/carpartsdetection HTTP/1.1" 200 13342
+2022-12-02T13:47:25,150 [INFO ] W-9000-carpartsdetection_3.0 TS_METRICS - Requests2XX.Count:1|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:47:25,163 [DEBUG] W-9000-carpartsdetection_3.0 org.pytorch.serve.job.Job - Waiting time ns: 1150539, Backend time ns: 13384441025
+2022-12-02T13:47:25,163 [DEBUG] W-9000-carpartsdetection_3.0 org.pytorch.serve.job.Job - Waiting time ns: 1150539, Backend time ns: 13384441025
+2022-12-02T13:47:25,172 [INFO ] W-9000-carpartsdetection_3.0 TS_METRICS - QueueTime.ms:1|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:47:25,178 [INFO ] W-9000-carpartsdetection_3.0 TS_METRICS - WorkerThreadTime.ms:174|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:47:25,544 [INFO ] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669969045537
+2022-12-02T13:47:25,544 [INFO ] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669969045537
+2022-12-02T13:47:25,918 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Backend received inference at: 1669969045
+2022-12-02T13:47:25,928 [WARN ] W-9002-carpartsdetection_3.0-stderr MODEL_LOG - Backend received inference at: 1669969045
+2022-12-02T13:47:50,133 [INFO ] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 24536
+2022-12-02T13:47:50,133 [INFO ] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 24536
+2022-12-02T13:47:50,129 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_METRICS - HandlerTime.Milliseconds:24048.75|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:d60ac6c2-fab4-48c4-9ac7-d1629fd83de8,timestamp:1669969070
+2022-12-02T13:47:50,135 [INFO ] W-9002-carpartsdetection_3.0-stderr MODEL_METRICS - HandlerTime.Milliseconds:24048.75|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:d60ac6c2-fab4-48c4-9ac7-d1629fd83de8,timestamp:1669969070
+2022-12-02T13:47:50,246 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_METRICS - PredictionTime.Milliseconds:24061.76|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:d60ac6c2-fab4-48c4-9ac7-d1629fd83de8,timestamp:1669969070
+2022-12-02T13:47:50,271 [INFO ] W-9002-carpartsdetection_3.0-stderr MODEL_METRICS - PredictionTime.Milliseconds:24061.76|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:d60ac6c2-fab4-48c4-9ac7-d1629fd83de8,timestamp:1669969070
+2022-12-02T13:47:50,255 [INFO ] W-9002-carpartsdetection_3.0 ACCESS_LOG - /[0:0:0:0:0:0:0:1%0]:47902 "GET /predictions/carpartsdetection HTTP/1.1" 200 24722
+2022-12-02T13:47:50,297 [INFO ] W-9002-carpartsdetection_3.0 TS_METRICS - Requests2XX.Count:1|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:47:50,306 [DEBUG] W-9002-carpartsdetection_3.0 org.pytorch.serve.job.Job - Waiting time ns: 2870972, Backend time ns: 24769514477
+2022-12-02T13:47:50,306 [DEBUG] W-9002-carpartsdetection_3.0 org.pytorch.serve.job.Job - Waiting time ns: 2870972, Backend time ns: 24769514477
+2022-12-02T13:47:50,317 [INFO ] W-9002-carpartsdetection_3.0 TS_METRICS - QueueTime.ms:2|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:47:50,326 [INFO ] W-9002-carpartsdetection_3.0 TS_METRICS - WorkerThreadTime.ms:253|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:47:52,745 [INFO ] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669969072744
+2022-12-02T13:47:52,745 [INFO ] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669969072744
+2022-12-02T13:47:52,834 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - Backend received inference at: 1669969072
+2022-12-02T13:47:52,839 [WARN ] W-9003-carpartsdetection_3.0-stderr MODEL_LOG - Backend received inference at: 1669969072
+2022-12-02T13:48:01,669 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669969081
+2022-12-02T13:48:01,676 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:939.9674911499023|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669969081
+2022-12-02T13:48:01,682 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:15.670818328857422|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669969081
+2022-12-02T13:48:01,689 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:1.6|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669969081
+2022-12-02T13:48:01,698 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:112.69921875|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669969081
+2022-12-02T13:48:01,704 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:3503.57421875|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669969081
+2022-12-02T13:48:01,710 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:97.0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669969081
+2022-12-02T13:48:05,866 [INFO ] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 13105
+2022-12-02T13:48:05,866 [INFO ] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 13105
+2022-12-02T13:48:05,871 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_METRICS - HandlerTime.Milliseconds:12975.21|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:b785dd94-687f-4396-925b-6e460f5f0b28,timestamp:1669969085
+2022-12-02T13:48:05,872 [INFO ] W-9003-carpartsdetection_3.0-stderr MODEL_METRICS - HandlerTime.Milliseconds:12975.21|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:b785dd94-687f-4396-925b-6e460f5f0b28,timestamp:1669969085
+2022-12-02T13:48:05,890 [INFO ] W-9003-carpartsdetection_3.0 ACCESS_LOG - /[0:0:0:0:0:0:0:1%0]:43590 "GET /predictions/carpartsdetection HTTP/1.1" 200 13153
+2022-12-02T13:48:05,912 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_METRICS - PredictionTime.Milliseconds:12986.35|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:b785dd94-687f-4396-925b-6e460f5f0b28,timestamp:1669969085
+2022-12-02T13:48:05,913 [INFO ] W-9003-carpartsdetection_3.0-stderr MODEL_METRICS - PredictionTime.Milliseconds:12986.35|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:b785dd94-687f-4396-925b-6e460f5f0b28,timestamp:1669969085
+2022-12-02T13:48:05,919 [INFO ] W-9003-carpartsdetection_3.0 TS_METRICS - Requests2XX.Count:1|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:48:05,946 [DEBUG] W-9003-carpartsdetection_3.0 org.pytorch.serve.job.Job - Waiting time ns: 6401648, Backend time ns: 13201908726
+2022-12-02T13:48:05,946 [DEBUG] W-9003-carpartsdetection_3.0 org.pytorch.serve.job.Job - Waiting time ns: 6401648, Backend time ns: 13201908726
+2022-12-02T13:48:05,958 [INFO ] W-9003-carpartsdetection_3.0 TS_METRICS - QueueTime.ms:6|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:48:05,967 [INFO ] W-9003-carpartsdetection_3.0 TS_METRICS - WorkerThreadTime.ms:118|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:48:07,680 [INFO ] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669969087678
+2022-12-02T13:48:07,680 [INFO ] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669969087678
+2022-12-02T13:48:07,781 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Backend received inference at: 1669969087
+2022-12-02T13:48:07,785 [WARN ] W-9001-carpartsdetection_3.0-stderr MODEL_LOG - Backend received inference at: 1669969087
+2022-12-02T13:48:32,169 [INFO ] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 24473
+2022-12-02T13:48:32,168 [INFO ] W-9001-carpartsdetection_3.0-stderr MODEL_METRICS - HandlerTime.Milliseconds:24344.52|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:8f998b3e-fb4b-415d-8fa8-6ad6b02d0483,timestamp:1669969112
+2022-12-02T13:48:32,169 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_METRICS - HandlerTime.Milliseconds:24344.52|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:8f998b3e-fb4b-415d-8fa8-6ad6b02d0483,timestamp:1669969112
+2022-12-02T13:48:32,169 [INFO ] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 24473
+2022-12-02T13:48:32,185 [INFO ] W-9001-carpartsdetection_3.0-stderr MODEL_METRICS - PredictionTime.Milliseconds:24346.48|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:8f998b3e-fb4b-415d-8fa8-6ad6b02d0483,timestamp:1669969112
+2022-12-02T13:48:32,196 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_METRICS - PredictionTime.Milliseconds:24346.48|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:8f998b3e-fb4b-415d-8fa8-6ad6b02d0483,timestamp:1669969112
+2022-12-02T13:48:32,208 [INFO ] W-9001-carpartsdetection_3.0 ACCESS_LOG - /[0:0:0:0:0:0:0:1%0]:42010 "GET /predictions/carpartsdetection HTTP/1.1" 200 24530
+2022-12-02T13:48:32,214 [INFO ] W-9001-carpartsdetection_3.0 TS_METRICS - Requests2XX.Count:1|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:48:32,229 [DEBUG] W-9001-carpartsdetection_3.0 org.pytorch.serve.job.Job - Waiting time ns: 327868, Backend time ns: 24550118757
+2022-12-02T13:48:32,229 [DEBUG] W-9001-carpartsdetection_3.0 org.pytorch.serve.job.Job - Waiting time ns: 327868, Backend time ns: 24550118757
+2022-12-02T13:48:32,235 [INFO ] W-9001-carpartsdetection_3.0 TS_METRICS - QueueTime.ms:0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:48:32,243 [INFO ] W-9001-carpartsdetection_3.0 TS_METRICS - WorkerThreadTime.ms:92|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:48:32,544 [INFO ] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669969112542
+2022-12-02T13:48:32,544 [INFO ] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669969112542
+2022-12-02T13:48:32,667 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Backend received inference at: 1669969112
+2022-12-02T13:48:32,668 [WARN ] W-9000-carpartsdetection_3.0-stderr MODEL_LOG - Backend received inference at: 1669969112
+2022-12-02T13:48:43,673 [INFO ] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 11112
+2022-12-02T13:48:43,672 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_METRICS - HandlerTime.Milliseconds:10957.04|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:babf5152-55c9-4c2d-a8d6-b5a425f270ed,timestamp:1669969123
+2022-12-02T13:48:43,673 [INFO ] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 11112
+2022-12-02T13:48:43,671 [INFO ] W-9000-carpartsdetection_3.0-stderr MODEL_METRICS - HandlerTime.Milliseconds:10957.04|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:babf5152-55c9-4c2d-a8d6-b5a425f270ed,timestamp:1669969123
+2022-12-02T13:48:43,696 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_METRICS - PredictionTime.Milliseconds:10966.6|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:babf5152-55c9-4c2d-a8d6-b5a425f270ed,timestamp:1669969123
+2022-12-02T13:48:43,729 [INFO ] W-9000-carpartsdetection_3.0-stderr MODEL_METRICS - PredictionTime.Milliseconds:10966.6|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:babf5152-55c9-4c2d-a8d6-b5a425f270ed,timestamp:1669969123
+2022-12-02T13:48:43,729 [INFO ] W-9000-carpartsdetection_3.0 ACCESS_LOG - /[0:0:0:0:0:0:0:1%0]:43838 "GET /predictions/carpartsdetection HTTP/1.1" 200 11183
+2022-12-02T13:48:43,768 [INFO ] W-9000-carpartsdetection_3.0 TS_METRICS - Requests2XX.Count:1|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:48:43,774 [DEBUG] W-9000-carpartsdetection_3.0 org.pytorch.serve.job.Job - Waiting time ns: 574737, Backend time ns: 11231592794
+2022-12-02T13:48:43,774 [DEBUG] W-9000-carpartsdetection_3.0 org.pytorch.serve.job.Job - Waiting time ns: 574737, Backend time ns: 11231592794
+2022-12-02T13:48:43,782 [INFO ] W-9000-carpartsdetection_3.0 TS_METRICS - QueueTime.ms:0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:48:43,791 [INFO ] W-9000-carpartsdetection_3.0 TS_METRICS - WorkerThreadTime.ms:137|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:48:44,600 [INFO ] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669969124600
+2022-12-02T13:48:44,600 [INFO ] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669969124600
+2022-12-02T13:48:44,625 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Backend received inference at: 1669969124
+2022-12-02T13:48:44,625 [WARN ] W-9002-carpartsdetection_3.0-stderr MODEL_LOG - Backend received inference at: 1669969124
+2022-12-02T13:48:50,684 [INFO ] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 6077
+2022-12-02T13:48:50,684 [INFO ] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 6077
+2022-12-02T13:48:50,693 [INFO ] W-9002-carpartsdetection_3.0 ACCESS_LOG - /[0:0:0:0:0:0:0:1%0]:43896 "GET /predictions/carpartsdetection HTTP/1.1" 200 6094
+2022-12-02T13:48:50,697 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_METRICS - HandlerTime.Milliseconds:6041.87|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:ce474a3c-0ebe-40d6-b509-f926a8716f61,timestamp:1669969130
+2022-12-02T13:48:50,708 [INFO ] W-9002-carpartsdetection_3.0 TS_METRICS - Requests2XX.Count:1|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:48:50,707 [INFO ] W-9002-carpartsdetection_3.0-stderr MODEL_METRICS - HandlerTime.Milliseconds:6041.87|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:ce474a3c-0ebe-40d6-b509-f926a8716f61,timestamp:1669969130
+2022-12-02T13:48:50,727 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_METRICS - PredictionTime.Milliseconds:6045.61|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:ce474a3c-0ebe-40d6-b509-f926a8716f61,timestamp:1669969130
+2022-12-02T13:48:50,755 [DEBUG] W-9002-carpartsdetection_3.0 org.pytorch.serve.job.Job - Waiting time ns: 554175, Backend time ns: 6141044155
+2022-12-02T13:48:50,761 [INFO ] W-9002-carpartsdetection_3.0-stderr MODEL_METRICS - PredictionTime.Milliseconds:6045.61|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:ce474a3c-0ebe-40d6-b509-f926a8716f61,timestamp:1669969130
+2022-12-02T13:48:50,755 [DEBUG] W-9002-carpartsdetection_3.0 org.pytorch.serve.job.Job - Waiting time ns: 554175, Backend time ns: 6141044155
+2022-12-02T13:48:50,822 [INFO ] W-9002-carpartsdetection_3.0 TS_METRICS - QueueTime.ms:0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:48:50,851 [INFO ] W-9002-carpartsdetection_3.0 TS_METRICS - WorkerThreadTime.ms:174|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:48:53,188 [INFO ] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669969133187
+2022-12-02T13:48:53,188 [INFO ] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669969133187
+2022-12-02T13:48:53,250 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - Backend received inference at: 1669969133
+2022-12-02T13:48:53,251 [WARN ] W-9003-carpartsdetection_3.0-stderr MODEL_LOG - Backend received inference at: 1669969133
+2022-12-02T13:49:03,243 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669969143
+2022-12-02T13:49:03,251 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:939.9674911499023|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669969143
+2022-12-02T13:49:03,262 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:15.670818328857422|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669969143
+2022-12-02T13:49:03,268 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:1.6|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669969143
+2022-12-02T13:49:03,279 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:97.5|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669969143
+2022-12-02T13:49:03,284 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:3548.8515625|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669969143
+2022-12-02T13:49:03,295 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:97.4|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669969143
+2022-12-02T13:49:06,134 [INFO ] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 12913
+2022-12-02T13:49:06,134 [INFO ] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 12913
+2022-12-02T13:49:06,134 [INFO ] W-9003-carpartsdetection_3.0-stderr MODEL_METRICS - HandlerTime.Milliseconds:12871.44|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:8eafd221-cbc3-4dfb-943c-8ad0c61d1dfa,timestamp:1669969146
+2022-12-02T13:49:06,163 [INFO ] W-9003-carpartsdetection_3.0 ACCESS_LOG - /[0:0:0:0:0:0:0:1%0]:59266 "GET /predictions/carpartsdetection HTTP/1.1" 200 12977
+2022-12-02T13:49:06,135 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_METRICS - HandlerTime.Milliseconds:12871.44|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:8eafd221-cbc3-4dfb-943c-8ad0c61d1dfa,timestamp:1669969146
+2022-12-02T13:49:06,179 [INFO ] W-9003-carpartsdetection_3.0 TS_METRICS - Requests2XX.Count:1|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:49:06,197 [DEBUG] W-9003-carpartsdetection_3.0 org.pytorch.serve.job.Job - Waiting time ns: 1433454, Backend time ns: 13008980133
+2022-12-02T13:49:06,197 [DEBUG] W-9003-carpartsdetection_3.0 org.pytorch.serve.job.Job - Waiting time ns: 1433454, Backend time ns: 13008980133
+2022-12-02T13:49:06,184 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_METRICS - PredictionTime.Milliseconds:12874.07|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:8eafd221-cbc3-4dfb-943c-8ad0c61d1dfa,timestamp:1669969146
+2022-12-02T13:49:06,184 [INFO ] W-9003-carpartsdetection_3.0-stderr MODEL_METRICS - PredictionTime.Milliseconds:12874.07|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:8eafd221-cbc3-4dfb-943c-8ad0c61d1dfa,timestamp:1669969146
+2022-12-02T13:49:06,217 [INFO ] W-9003-carpartsdetection_3.0 TS_METRICS - QueueTime.ms:1|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:49:06,262 [INFO ] W-9003-carpartsdetection_3.0 TS_METRICS - WorkerThreadTime.ms:162|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:49:12,886 [INFO ] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669969152885
+2022-12-02T13:49:12,886 [INFO ] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669969152885
+2022-12-02T13:49:12,965 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Backend received inference at: 1669969152
+2022-12-02T13:49:12,967 [WARN ] W-9001-carpartsdetection_3.0-stderr MODEL_LOG - Backend received inference at: 1669969152
+2022-12-02T13:49:21,293 [INFO ] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 8374
+2022-12-02T13:49:21,293 [INFO ] W-9001-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 8374
+2022-12-02T13:49:21,295 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_METRICS - HandlerTime.Milliseconds:8316.48|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:5e8e2b09-fa04-4e39-a2b1-82d9b376391e,timestamp:1669969161
+2022-12-02T13:49:21,294 [INFO ] W-9001-carpartsdetection_3.0-stderr MODEL_METRICS - HandlerTime.Milliseconds:8316.48|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:5e8e2b09-fa04-4e39-a2b1-82d9b376391e,timestamp:1669969161
+2022-12-02T13:49:21,302 [INFO ] W-9001-carpartsdetection_3.0 ACCESS_LOG - /[0:0:0:0:0:0:0:1%0]:51780 "GET /predictions/carpartsdetection HTTP/1.1" 200 8418
+2022-12-02T13:49:21,308 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_METRICS - PredictionTime.Milliseconds:8318.17|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:5e8e2b09-fa04-4e39-a2b1-82d9b376391e,timestamp:1669969161
+2022-12-02T13:49:21,315 [INFO ] W-9001-carpartsdetection_3.0 TS_METRICS - Requests2XX.Count:1|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:49:21,313 [INFO ] W-9001-carpartsdetection_3.0-stderr MODEL_METRICS - PredictionTime.Milliseconds:8318.17|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:5e8e2b09-fa04-4e39-a2b1-82d9b376391e,timestamp:1669969161
+2022-12-02T13:49:21,329 [DEBUG] W-9001-carpartsdetection_3.0 org.pytorch.serve.job.Job - Waiting time ns: 280691, Backend time ns: 8444392106
+2022-12-02T13:49:21,329 [DEBUG] W-9001-carpartsdetection_3.0 org.pytorch.serve.job.Job - Waiting time ns: 280691, Backend time ns: 8444392106
+2022-12-02T13:49:21,340 [INFO ] W-9001-carpartsdetection_3.0 TS_METRICS - QueueTime.ms:0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:49:21,348 [INFO ] W-9001-carpartsdetection_3.0 TS_METRICS - WorkerThreadTime.ms:89|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:49:21,832 [INFO ] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669969161832
+2022-12-02T13:49:21,832 [INFO ] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669969161832
+2022-12-02T13:49:21,848 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Backend received inference at: 1669969161
+2022-12-02T13:49:21,848 [WARN ] W-9000-carpartsdetection_3.0-stderr MODEL_LOG - Backend received inference at: 1669969161
+2022-12-02T13:49:39,210 [INFO ] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 17369
+2022-12-02T13:49:39,186 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_METRICS - HandlerTime.Milliseconds:17081.91|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:12bb7529-d833-407c-a49b-3381526f49f1,timestamp:1669969179
+2022-12-02T13:49:39,186 [INFO ] W-9000-carpartsdetection_3.0-stderr MODEL_METRICS - HandlerTime.Milliseconds:17081.91|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:12bb7529-d833-407c-a49b-3381526f49f1,timestamp:1669969179
+2022-12-02T13:49:39,210 [INFO ] W-9000-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 17369
+2022-12-02T13:49:39,500 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_METRICS - PredictionTime.Milliseconds:17131.13|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:12bb7529-d833-407c-a49b-3381526f49f1,timestamp:1669969179
+2022-12-02T13:49:39,593 [INFO ] W-9000-carpartsdetection_3.0-stderr MODEL_METRICS - PredictionTime.Milliseconds:17131.13|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:12bb7529-d833-407c-a49b-3381526f49f1,timestamp:1669969179
+2022-12-02T13:49:39,593 [INFO ] W-9000-carpartsdetection_3.0 ACCESS_LOG - /[0:0:0:0:0:0:0:1%0]:47578 "GET /predictions/carpartsdetection HTTP/1.1" 200 17761
+2022-12-02T13:49:39,785 [INFO ] W-9000-carpartsdetection_3.0 TS_METRICS - Requests2XX.Count:1|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:49:39,826 [DEBUG] W-9000-carpartsdetection_3.0 org.pytorch.serve.job.Job - Waiting time ns: 166787, Backend time ns: 17993288763
+2022-12-02T13:49:39,826 [DEBUG] W-9000-carpartsdetection_3.0 org.pytorch.serve.job.Job - Waiting time ns: 166787, Backend time ns: 17993288763
+2022-12-02T13:49:39,844 [INFO ] W-9000-carpartsdetection_3.0 TS_METRICS - QueueTime.ms:0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:49:39,856 [INFO ] W-9000-carpartsdetection_3.0 TS_METRICS - WorkerThreadTime.ms:655|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:49:41,173 [INFO ] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669969181173
+2022-12-02T13:49:41,173 [INFO ] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669969181173
+2022-12-02T13:49:41,277 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Backend received inference at: 1669969181
+2022-12-02T13:49:41,278 [WARN ] W-9002-carpartsdetection_3.0-stderr MODEL_LOG - Backend received inference at: 1669969181
+2022-12-02T13:49:51,587 [INFO ] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 10361
+2022-12-02T13:49:51,587 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_METRICS - HandlerTime.Milliseconds:10291.94|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:d81af9aa-2391-421f-ab04-2a9a5e4bd3b2,timestamp:1669969191
+2022-12-02T13:49:51,587 [INFO ] W-9002-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 10361
+2022-12-02T13:49:51,587 [INFO ] W-9002-carpartsdetection_3.0-stderr MODEL_METRICS - HandlerTime.Milliseconds:10291.94|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:d81af9aa-2391-421f-ab04-2a9a5e4bd3b2,timestamp:1669969191
+2022-12-02T13:49:51,630 [INFO ] W-9002-carpartsdetection_3.0 ACCESS_LOG - /[0:0:0:0:0:0:0:1%0]:35562 "GET /predictions/carpartsdetection HTTP/1.1" 200 10457
+2022-12-02T13:49:51,610 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_METRICS - PredictionTime.Milliseconds:10294.72|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:d81af9aa-2391-421f-ab04-2a9a5e4bd3b2,timestamp:1669969191
+2022-12-02T13:49:51,652 [INFO ] W-9002-carpartsdetection_3.0-stderr MODEL_METRICS - PredictionTime.Milliseconds:10294.72|#ModelName:carpartsdetection,Level:Model|#hostname:LAPTOP-DMBJ9SCI,requestID:d81af9aa-2391-421f-ab04-2a9a5e4bd3b2,timestamp:1669969191
+2022-12-02T13:49:51,655 [INFO ] W-9002-carpartsdetection_3.0 TS_METRICS - Requests2XX.Count:1|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:49:51,677 [DEBUG] W-9002-carpartsdetection_3.0 org.pytorch.serve.job.Job - Waiting time ns: 396451, Backend time ns: 10503419704
+2022-12-02T13:49:51,677 [DEBUG] W-9002-carpartsdetection_3.0 org.pytorch.serve.job.Job - Waiting time ns: 396451, Backend time ns: 10503419704
+2022-12-02T13:49:51,696 [INFO ] W-9002-carpartsdetection_3.0 TS_METRICS - QueueTime.ms:0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:49:51,721 [INFO ] W-9002-carpartsdetection_3.0 TS_METRICS - WorkerThreadTime.ms:187|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:49:52,592 [INFO ] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669969192591
+2022-12-02T13:49:52,592 [INFO ] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669969192591
+2022-12-02T13:49:52,679 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - Backend received inference at: 1669969192
+2022-12-02T13:49:52,681 [WARN ] W-9003-carpartsdetection_3.0-stderr MODEL_LOG - Backend received inference at: 1669969192
+2022-12-02T13:50:02,142 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669969202
+2022-12-02T13:50:02,305 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:939.9674911499023|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669969202
+2022-12-02T13:50:02,333 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:15.670818328857422|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669969202
+2022-12-02T13:50:02,368 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:1.6|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669969202
+2022-12-02T13:50:02,390 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:59.98828125|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669969202
+2022-12-02T13:50:02,419 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:3590.921875|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669969202
+2022-12-02T13:50:02,437 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:98.4|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669969202
+2022-12-02T13:50:12,104 [INFO ] W-9003-carpartsdetection_3.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9003-carpartsdetection_3.0-stderr
+2022-12-02T13:50:12,100 [INFO ] W-9003-carpartsdetection_3.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9003-carpartsdetection_3.0-stdout
+2022-12-02T13:50:12,100 [INFO ] W-9003-carpartsdetection_3.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9003-carpartsdetection_3.0-stdout
+2022-12-02T13:50:12,104 [INFO ] W-9003-carpartsdetection_3.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9003-carpartsdetection_3.0-stderr
+2022-12-02T13:50:12,127 [INFO ] epollEventLoopGroup-5-2 org.pytorch.serve.wlm.WorkerThread - 9003 Worker disconnected. WORKER_MODEL_LOADED
+2022-12-02T13:50:12,127 [INFO ] epollEventLoopGroup-5-2 org.pytorch.serve.wlm.WorkerThread - 9003 Worker disconnected. WORKER_MODEL_LOADED
+2022-12-02T13:50:12,164 [DEBUG] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_MODEL_LOADED
+2022-12-02T13:50:12,164 [DEBUG] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_MODEL_LOADED
+2022-12-02T13:50:12,173 [DEBUG] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend worker monitoring thread interrupted or backend worker process died.
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1679) ~[?:?]
+	at java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:435) ~[?:?]
+	at org.pytorch.serve.wlm.WorkerThread.run(WorkerThread.java:189) [model-server.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-12-02T13:50:12,173 [DEBUG] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend worker monitoring thread interrupted or backend worker process died.
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1679) ~[?:?]
+	at java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:435) ~[?:?]
+	at org.pytorch.serve.wlm.WorkerThread.run(WorkerThread.java:189) [model-server.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-12-02T13:50:12,295 [INFO ] W-9003-carpartsdetection_3.0 ACCESS_LOG - /[0:0:0:0:0:0:0:1%0]:52662 "GET /predictions/carpartsdetection HTTP/1.1" 507 19705
+2022-12-02T13:50:12,302 [INFO ] W-9003-carpartsdetection_3.0 TS_METRICS - Requests5XX.Count:1|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:50:12,310 [DEBUG] W-9003-carpartsdetection_3.0 org.pytorch.serve.job.Job - Waiting time ns: 246786, Inference time ns: 19719036072
+2022-12-02T13:50:12,310 [DEBUG] W-9003-carpartsdetection_3.0 org.pytorch.serve.job.Job - Waiting time ns: 246786, Inference time ns: 19719036072
+2022-12-02T13:50:12,317 [DEBUG] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9003-carpartsdetection_3.0 State change WORKER_MODEL_LOADED -> WORKER_STOPPED
+2022-12-02T13:50:12,317 [DEBUG] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9003-carpartsdetection_3.0 State change WORKER_MODEL_LOADED -> WORKER_STOPPED
+2022-12-02T13:50:12,343 [WARN ] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9003-carpartsdetection_3.0-stderr
+2022-12-02T13:50:12,343 [WARN ] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9003-carpartsdetection_3.0-stderr
+2022-12-02T13:50:12,354 [WARN ] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9003-carpartsdetection_3.0-stdout
+2022-12-02T13:50:12,354 [WARN ] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9003-carpartsdetection_3.0-stdout
+2022-12-02T13:50:12,367 [INFO ] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Retry worker: 9003 in 1 seconds.
+2022-12-02T13:50:12,367 [INFO ] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Retry worker: 9003 in 1 seconds.
+2022-12-02T13:50:13,381 [DEBUG] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3.8, /home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9003]
+2022-12-02T13:50:13,381 [DEBUG] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python3.8, /home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9003]
+2022-12-02T13:50:19,923 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9003
+2022-12-02T13:50:19,928 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - [PID]398
+2022-12-02T13:50:19,935 [DEBUG] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9003-carpartsdetection_3.0 State change WORKER_STOPPED -> WORKER_STARTED
+2022-12-02T13:50:19,935 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - Torch worker started.
+2022-12-02T13:50:19,935 [DEBUG] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9003-carpartsdetection_3.0 State change WORKER_STOPPED -> WORKER_STARTED
+2022-12-02T13:50:19,942 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - Python runtime: 3.8.15
+2022-12-02T13:50:19,971 [INFO ] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9003
+2022-12-02T13:50:19,971 [INFO ] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9003
+2022-12-02T13:50:20,040 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9003.
+2022-12-02T13:50:20,053 [INFO ] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669969220053
+2022-12-02T13:50:20,053 [INFO ] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1669969220053
+2022-12-02T13:50:20,241 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - model_name: carpartsdetection, batchSize: 1
+2022-12-02T13:50:25,366 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - Fusing layers... 
+2022-12-02T13:50:25,367 [WARN ] W-9003-carpartsdetection_3.0-stderr MODEL_LOG - Fusing layers... 
+2022-12-02T13:50:27,490 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - yolov7-seg summary: 325 layers, 37923386 parameters, 0 gradients
+2022-12-02T13:50:27,490 [WARN ] W-9003-carpartsdetection_3.0-stderr MODEL_LOG - yolov7-seg summary: 325 layers, 37923386 parameters, 0 gradients
+2022-12-02T13:50:27,508 [INFO ] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 7268
+2022-12-02T13:50:27,508 [INFO ] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 7268
+2022-12-02T13:50:27,520 [DEBUG] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9003-carpartsdetection_3.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-12-02T13:50:27,520 [DEBUG] W-9003-carpartsdetection_3.0 org.pytorch.serve.wlm.WorkerThread - W-9003-carpartsdetection_3.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-12-02T13:50:27,526 [INFO ] W-9003-carpartsdetection_3.0 TS_METRICS - W-9003-carpartsdetection_3.0.ms:508418|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669969227
+2022-12-02T13:50:27,536 [INFO ] W-9003-carpartsdetection_3.0 TS_METRICS - WorkerThreadTime.ms:215|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:null
+2022-12-02T13:51:01,268 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669969261
+2022-12-02T13:51:01,276 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:939.9674911499023|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669969261
+2022-12-02T13:51:01,282 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:15.670818328857422|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669969261
+2022-12-02T13:51:01,287 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:1.6|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669969261
+2022-12-02T13:51:01,293 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:619.62109375|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669969261
+2022-12-02T13:51:01,299 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:2995.35546875|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669969261
+2022-12-02T13:51:01,304 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:83.6|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669969261
+2022-12-02T13:52:01,396 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669969321
+2022-12-02T13:52:01,405 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:939.9674911499023|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669969321
+2022-12-02T13:52:01,410 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:15.670818328857422|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669969321
+2022-12-02T13:52:01,418 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:1.6|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669969321
+2022-12-02T13:52:01,446 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:614.65625|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669969321
+2022-12-02T13:52:01,453 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:3000.3203125|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669969321
+2022-12-02T13:52:01,458 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:83.7|#Level:Host|#hostname:LAPTOP-DMBJ9SCI,timestamp:1669969321

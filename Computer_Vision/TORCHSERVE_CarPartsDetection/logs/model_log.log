@@ -1,0 +1,278 @@
+2022-12-02T13:07:59,680 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9003
+2022-12-02T13:07:59,683 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9001
+2022-12-02T13:07:59,679 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2022-12-02T13:07:59,679 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9002
+2022-12-02T13:07:59,704 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - [PID]90
+2022-12-02T13:07:59,708 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - [PID]88
+2022-12-02T13:07:59,711 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - [PID]87
+2022-12-02T13:07:59,715 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - Torch worker started.
+2022-12-02T13:07:59,711 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - [PID]89
+2022-12-02T13:07:59,719 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - Python runtime: 3.8.15
+2022-12-02T13:07:59,722 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Torch worker started.
+2022-12-02T13:07:59,723 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Torch worker started.
+2022-12-02T13:07:59,726 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Torch worker started.
+2022-12-02T13:07:59,726 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Python runtime: 3.8.15
+2022-12-02T13:07:59,742 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Python runtime: 3.8.15
+2022-12-02T13:07:59,746 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Python runtime: 3.8.15
+2022-12-02T13:07:59,811 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9001.
+2022-12-02T13:07:59,812 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9003.
+2022-12-02T13:07:59,812 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9002.
+2022-12-02T13:07:59,813 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2022-12-02T13:08:00,253 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - model_name: carpartsdetection, batchSize: 1
+2022-12-02T13:08:00,268 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - model_name: carpartsdetection, batchSize: 1
+2022-12-02T13:08:00,328 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - model_name: carpartsdetection, batchSize: 1
+2022-12-02T13:08:00,335 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - model_name: carpartsdetection, batchSize: 1
+2022-12-02T13:08:04,811 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Backend worker process died.
+2022-12-02T13:08:04,817 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-12-02T13:08:04,812 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Backend worker process died.
+2022-12-02T13:08:04,812 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Backend worker process died.
+2022-12-02T13:08:04,831 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py", line 189, in <module>
+2022-12-02T13:08:04,853 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-12-02T13:08:04,859 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-12-02T13:08:04,870 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -     worker.run_server()
+2022-12-02T13:08:04,878 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py", line 189, in <module>
+2022-12-02T13:08:04,914 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py", line 189, in <module>
+2022-12-02T13:08:04,954 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -     worker.run_server()
+2022-12-02T13:08:04,977 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py", line 161, in run_server
+2022-12-02T13:08:04,981 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py", line 161, in run_server
+2022-12-02T13:08:04,994 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -     self.handle_connection(cl_socket)
+2022-12-02T13:08:04,997 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py", line 123, in handle_connection
+2022-12-02T13:08:05,002 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -     self.handle_connection(cl_socket)
+2022-12-02T13:08:05,008 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py", line 123, in handle_connection
+2022-12-02T13:08:05,010 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -     worker.run_server()
+2022-12-02T13:08:05,007 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -     service, result, code = self.load_model(msg)
+2022-12-02T13:08:05,011 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -     service, result, code = self.load_model(msg)
+2022-12-02T13:08:05,018 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py", line 95, in load_model
+2022-12-02T13:08:05,024 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py", line 95, in load_model
+2022-12-02T13:08:05,015 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py", line 161, in run_server
+2022-12-02T13:08:05,029 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -     service = model_loader.load(model_name, model_dir, handler, gpu,
+2022-12-02T13:08:05,033 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -     service = model_loader.load(model_name, model_dir, handler, gpu,
+2022-12-02T13:08:05,036 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -     self.handle_connection(cl_socket)
+2022-12-02T13:08:05,038 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_loader.py", line 112, in load
+2022-12-02T13:08:05,046 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_loader.py", line 112, in load
+2022-12-02T13:08:05,050 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py", line 123, in handle_connection
+2022-12-02T13:08:05,049 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -     initialize_fn(service.context)
+2022-12-02T13:08:05,054 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -     initialize_fn(service.context)
+2022-12-02T13:08:05,056 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -     service, result, code = self.load_model(msg)
+2022-12-02T13:08:05,064 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -   File "/tmp/models/1413708fd29944d2a2b569f210a8b730/handler.py", line 79, in initialize
+2022-12-02T13:08:05,067 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py", line 95, in load_model
+2022-12-02T13:08:05,062 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -   File "/tmp/models/1413708fd29944d2a2b569f210a8b730/handler.py", line 79, in initialize
+2022-12-02T13:08:05,070 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -     zip_ref.extractall(folder_name)
+2022-12-02T13:08:05,072 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -     zip_ref.extractall(folder_name)
+2022-12-02T13:08:05,070 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -     service = model_loader.load(model_name, model_dir, handler, gpu,
+2022-12-02T13:08:05,077 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -   File "/usr/lib/python3.8/zipfile.py", line 1647, in extractall
+2022-12-02T13:08:05,079 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -   File "/usr/lib/python3.8/zipfile.py", line 1647, in extractall
+2022-12-02T13:08:05,082 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -     self._extract_member(zipinfo, path, pwd)
+2022-12-02T13:08:05,086 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_loader.py", line 112, in load
+2022-12-02T13:08:05,089 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -     self._extract_member(zipinfo, path, pwd)
+2022-12-02T13:08:05,091 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -     initialize_fn(service.context)
+2022-12-02T13:08:05,095 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -   File "/usr/lib/python3.8/zipfile.py", line 1693, in _extract_member
+2022-12-02T13:08:05,087 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -   File "/usr/lib/python3.8/zipfile.py", line 1693, in _extract_member
+2022-12-02T13:08:05,103 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -     os.makedirs(upperdirs)
+2022-12-02T13:08:05,097 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -   File "/tmp/models/1413708fd29944d2a2b569f210a8b730/handler.py", line 79, in initialize
+2022-12-02T13:08:05,107 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -     os.makedirs(upperdirs)
+2022-12-02T13:08:05,109 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -     zip_ref.extractall(folder_name)
+2022-12-02T13:08:05,110 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -   File "/usr/lib/python3.8/os.py", line 223, in makedirs
+2022-12-02T13:08:05,116 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -   File "/usr/lib/python3.8/os.py", line 223, in makedirs
+2022-12-02T13:08:05,123 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -   File "/usr/lib/python3.8/zipfile.py", line 1647, in extractall
+2022-12-02T13:08:05,122 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -     mkdir(name, mode)
+2022-12-02T13:08:05,125 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -     self._extract_member(zipinfo, path, pwd)
+2022-12-02T13:08:05,126 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -     mkdir(name, mode)
+2022-12-02T13:08:05,128 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - FileExistsError: [Errno 17] File exists: 'models'
+2022-12-02T13:08:05,132 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -   File "/usr/lib/python3.8/zipfile.py", line 1693, in _extract_member
+2022-12-02T13:08:05,142 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -     os.makedirs(upperdirs)
+2022-12-02T13:08:05,143 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - FileExistsError: [Errno 17] File exists: 'models'
+2022-12-02T13:08:05,155 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -   File "/usr/lib/python3.8/os.py", line 223, in makedirs
+2022-12-02T13:08:05,158 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -     mkdir(name, mode)
+2022-12-02T13:08:05,173 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - FileExistsError: [Errno 17] File exists: 'models'
+2022-12-02T13:08:08,307 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - Fusing layers... 
+2022-12-02T13:08:08,308 [WARN ] W-9003-carpartsdetection_3.0-stderr MODEL_LOG - Fusing layers... 
+2022-12-02T13:08:09,259 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9002
+2022-12-02T13:08:09,275 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - [PID]139
+2022-12-02T13:08:09,278 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9001
+2022-12-02T13:08:09,288 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Torch worker started.
+2022-12-02T13:08:09,312 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2022-12-02T13:08:09,304 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - [PID]142
+2022-12-02T13:08:09,321 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Python runtime: 3.8.15
+2022-12-02T13:08:09,323 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Torch worker started.
+2022-12-02T13:08:09,330 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - [PID]136
+2022-12-02T13:08:09,339 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Python runtime: 3.8.15
+2022-12-02T13:08:09,343 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9002.
+2022-12-02T13:08:09,345 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Torch worker started.
+2022-12-02T13:08:09,358 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9001.
+2022-12-02T13:08:09,399 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Python runtime: 3.8.15
+2022-12-02T13:08:09,443 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2022-12-02T13:08:09,604 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - model_name: carpartsdetection, batchSize: 1
+2022-12-02T13:08:09,641 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - model_name: carpartsdetection, batchSize: 1
+2022-12-02T13:08:09,755 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - model_name: carpartsdetection, batchSize: 1
+2022-12-02T13:08:11,401 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - yolov7-seg summary: 325 layers, 37923386 parameters, 0 gradients
+2022-12-02T13:08:11,401 [WARN ] W-9003-carpartsdetection_3.0-stderr MODEL_LOG - yolov7-seg summary: 325 layers, 37923386 parameters, 0 gradients
+2022-12-02T13:08:13,853 [WARN ] W-9000-carpartsdetection_3.0-stderr MODEL_LOG - Fusing layers... 
+2022-12-02T13:08:13,837 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Fusing layers... 
+2022-12-02T13:08:14,074 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Fusing layers... 
+2022-12-02T13:08:14,079 [WARN ] W-9002-carpartsdetection_3.0-stderr MODEL_LOG - Fusing layers... 
+2022-12-02T13:08:14,540 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Fusing layers... 
+2022-12-02T13:08:14,545 [WARN ] W-9001-carpartsdetection_3.0-stderr MODEL_LOG - Fusing layers... 
+2022-12-02T13:08:16,211 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - yolov7-seg summary: 325 layers, 37923386 parameters, 0 gradients
+2022-12-02T13:08:16,214 [WARN ] W-9002-carpartsdetection_3.0-stderr MODEL_LOG - yolov7-seg summary: 325 layers, 37923386 parameters, 0 gradients
+2022-12-02T13:08:16,466 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - yolov7-seg summary: 325 layers, 37923386 parameters, 0 gradients
+2022-12-02T13:08:16,468 [WARN ] W-9000-carpartsdetection_3.0-stderr MODEL_LOG - yolov7-seg summary: 325 layers, 37923386 parameters, 0 gradients
+2022-12-02T13:08:16,570 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - yolov7-seg summary: 325 layers, 37923386 parameters, 0 gradients
+2022-12-02T13:08:16,570 [WARN ] W-9001-carpartsdetection_3.0-stderr MODEL_LOG - yolov7-seg summary: 325 layers, 37923386 parameters, 0 gradients
+2022-12-02T13:10:16,644 [WARN ] W-9003-carpartsdetection_3.0-stderr MODEL_LOG - Backend received inference at: 1669966816
+2022-12-02T13:10:16,644 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - Backend received inference at: 1669966816
+2022-12-02T13:42:02,196 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9003
+2022-12-02T13:42:02,196 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2022-12-02T13:42:02,198 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9002
+2022-12-02T13:42:02,222 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - [PID]295
+2022-12-02T13:42:02,224 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - [PID]294
+2022-12-02T13:42:02,227 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - [PID]292
+2022-12-02T13:42:02,228 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - Torch worker started.
+2022-12-02T13:42:02,230 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Torch worker started.
+2022-12-02T13:42:02,232 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Torch worker started.
+2022-12-02T13:42:02,241 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Python runtime: 3.8.15
+2022-12-02T13:42:02,246 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Python runtime: 3.8.15
+2022-12-02T13:42:02,247 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - Python runtime: 3.8.15
+2022-12-02T13:42:02,285 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9001
+2022-12-02T13:42:02,290 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - [PID]293
+2022-12-02T13:42:02,294 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Torch worker started.
+2022-12-02T13:42:02,297 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Python runtime: 3.8.15
+2022-12-02T13:42:02,339 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9002.
+2022-12-02T13:42:02,339 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9003.
+2022-12-02T13:42:02,340 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2022-12-02T13:42:02,339 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9001.
+2022-12-02T13:42:02,495 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - model_name: carpartsdetection, batchSize: 1
+2022-12-02T13:42:02,496 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - model_name: carpartsdetection, batchSize: 1
+2022-12-02T13:42:02,496 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - model_name: carpartsdetection, batchSize: 1
+2022-12-02T13:42:02,496 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - model_name: carpartsdetection, batchSize: 1
+2022-12-02T13:42:03,103 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Backend worker process died.
+2022-12-02T13:42:03,103 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Backend worker process died.
+2022-12-02T13:42:03,103 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Backend worker process died.
+2022-12-02T13:42:03,108 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-12-02T13:42:03,117 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py", line 189, in <module>
+2022-12-02T13:42:03,111 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-12-02T13:42:03,127 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-12-02T13:42:03,130 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py", line 189, in <module>
+2022-12-02T13:42:03,133 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -     worker.run_server()
+2022-12-02T13:42:03,137 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py", line 189, in <module>
+2022-12-02T13:42:03,139 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py", line 161, in run_server
+2022-12-02T13:42:03,142 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -     worker.run_server()
+2022-12-02T13:42:03,145 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py", line 161, in run_server
+2022-12-02T13:42:03,151 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -     self.handle_connection(cl_socket)
+2022-12-02T13:42:03,156 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -     worker.run_server()
+2022-12-02T13:42:03,162 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -     self.handle_connection(cl_socket)
+2022-12-02T13:42:03,187 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py", line 161, in run_server
+2022-12-02T13:42:03,190 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py", line 123, in handle_connection
+2022-12-02T13:42:03,193 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py", line 123, in handle_connection
+2022-12-02T13:42:03,195 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -     service, result, code = self.load_model(msg)
+2022-12-02T13:42:03,195 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -     self.handle_connection(cl_socket)
+2022-12-02T13:42:03,196 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -     service, result, code = self.load_model(msg)
+2022-12-02T13:42:03,198 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py", line 95, in load_model
+2022-12-02T13:42:03,199 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py", line 123, in handle_connection
+2022-12-02T13:42:03,201 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py", line 95, in load_model
+2022-12-02T13:42:03,206 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -     service = model_loader.load(model_name, model_dir, handler, gpu,
+2022-12-02T13:42:03,212 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -     service, result, code = self.load_model(msg)
+2022-12-02T13:42:03,211 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -     service = model_loader.load(model_name, model_dir, handler, gpu,
+2022-12-02T13:42:03,214 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_loader.py", line 112, in load
+2022-12-02T13:42:03,216 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_service_worker.py", line 95, in load_model
+2022-12-02T13:42:03,218 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_loader.py", line 112, in load
+2022-12-02T13:42:03,224 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -     service = model_loader.load(model_name, model_dir, handler, gpu,
+2022-12-02T13:42:03,230 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -   File "/home/yash_unix/.local/lib/python3.8/site-packages/ts/model_loader.py", line 112, in load
+2022-12-02T13:42:03,223 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -     initialize_fn(service.context)
+2022-12-02T13:42:03,232 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -     initialize_fn(service.context)
+2022-12-02T13:42:03,234 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -     initialize_fn(service.context)
+2022-12-02T13:42:03,236 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -   File "/tmp/models/229f6d9e8d9c4af786e4c7f940e92dff/handler.py", line 78, in initialize
+2022-12-02T13:42:03,243 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -   File "/tmp/models/229f6d9e8d9c4af786e4c7f940e92dff/handler.py", line 78, in initialize
+2022-12-02T13:42:03,248 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -     zip_ref.extractall(folder_name)
+2022-12-02T13:42:03,251 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -     zip_ref.extractall(folder_name)
+2022-12-02T13:42:03,255 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -   File "/tmp/models/229f6d9e8d9c4af786e4c7f940e92dff/handler.py", line 78, in initialize
+2022-12-02T13:42:03,257 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -   File "/usr/lib/python3.8/zipfile.py", line 1647, in extractall
+2022-12-02T13:42:03,258 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -     zip_ref.extractall(folder_name)
+2022-12-02T13:42:03,259 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -   File "/usr/lib/python3.8/zipfile.py", line 1647, in extractall
+2022-12-02T13:42:03,265 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -     self._extract_member(zipinfo, path, pwd)
+2022-12-02T13:42:03,267 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -   File "/usr/lib/python3.8/zipfile.py", line 1647, in extractall
+2022-12-02T13:42:03,269 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -   File "/usr/lib/python3.8/zipfile.py", line 1693, in _extract_member
+2022-12-02T13:42:03,274 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -     self._extract_member(zipinfo, path, pwd)
+2022-12-02T13:42:03,273 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -     self._extract_member(zipinfo, path, pwd)
+2022-12-02T13:42:03,278 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -   File "/usr/lib/python3.8/zipfile.py", line 1693, in _extract_member
+2022-12-02T13:42:03,282 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -   File "/usr/lib/python3.8/zipfile.py", line 1693, in _extract_member
+2022-12-02T13:42:03,278 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -     os.makedirs(upperdirs)
+2022-12-02T13:42:03,299 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -   File "/usr/lib/python3.8/os.py", line 223, in makedirs
+2022-12-02T13:42:03,305 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -     os.makedirs(upperdirs)
+2022-12-02T13:42:03,309 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG -     mkdir(name, mode)
+2022-12-02T13:42:03,311 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -     os.makedirs(upperdirs)
+2022-12-02T13:42:03,313 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -   File "/usr/lib/python3.8/os.py", line 223, in makedirs
+2022-12-02T13:42:03,318 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -   File "/usr/lib/python3.8/os.py", line 223, in makedirs
+2022-12-02T13:42:03,326 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG -     mkdir(name, mode)
+2022-12-02T13:42:03,332 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG -     mkdir(name, mode)
+2022-12-02T13:42:03,359 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - FileExistsError: [Errno 17] File exists: 'models'
+2022-12-02T13:42:04,302 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - Fusing layers... 
+2022-12-02T13:42:04,303 [WARN ] W-9003-carpartsdetection_3.0-stderr MODEL_LOG - Fusing layers... 
+2022-12-02T13:42:05,922 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - yolov7-seg summary: 325 layers, 37923386 parameters, 0 gradients
+2022-12-02T13:42:05,923 [WARN ] W-9003-carpartsdetection_3.0-stderr MODEL_LOG - yolov7-seg summary: 325 layers, 37923386 parameters, 0 gradients
+2022-12-02T13:42:06,166 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9001
+2022-12-02T13:42:06,168 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - [PID]347
+2022-12-02T13:42:06,170 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Torch worker started.
+2022-12-02T13:42:06,171 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2022-12-02T13:42:06,175 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Python runtime: 3.8.15
+2022-12-02T13:42:06,178 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - [PID]344
+2022-12-02T13:42:06,182 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Torch worker started.
+2022-12-02T13:42:06,186 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9001.
+2022-12-02T13:42:06,191 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Python runtime: 3.8.15
+2022-12-02T13:42:06,202 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2022-12-02T13:42:06,257 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - model_name: carpartsdetection, batchSize: 1
+2022-12-02T13:42:06,258 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - model_name: carpartsdetection, batchSize: 1
+2022-12-02T13:42:06,267 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9002
+2022-12-02T13:42:06,271 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - [PID]341
+2022-12-02T13:42:06,274 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Torch worker started.
+2022-12-02T13:42:06,277 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Python runtime: 3.8.15
+2022-12-02T13:42:06,284 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9002.
+2022-12-02T13:42:06,342 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - model_name: carpartsdetection, batchSize: 1
+2022-12-02T13:42:08,564 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Fusing layers... 
+2022-12-02T13:42:08,571 [WARN ] W-9001-carpartsdetection_3.0-stderr MODEL_LOG - Fusing layers... 
+2022-12-02T13:42:09,833 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Fusing layers... 
+2022-12-02T13:42:09,835 [WARN ] W-9002-carpartsdetection_3.0-stderr MODEL_LOG - Fusing layers... 
+2022-12-02T13:42:10,716 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Fusing layers... 
+2022-12-02T13:42:10,720 [WARN ] W-9000-carpartsdetection_3.0-stderr MODEL_LOG - Fusing layers... 
+2022-12-02T13:42:13,845 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - yolov7-seg summary: 325 layers, 37923386 parameters, 0 gradients
+2022-12-02T13:42:13,845 [WARN ] W-9001-carpartsdetection_3.0-stderr MODEL_LOG - yolov7-seg summary: 325 layers, 37923386 parameters, 0 gradients
+2022-12-02T13:42:13,881 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - yolov7-seg summary: 325 layers, 37923386 parameters, 0 gradients
+2022-12-02T13:42:13,882 [WARN ] W-9000-carpartsdetection_3.0-stderr MODEL_LOG - yolov7-seg summary: 325 layers, 37923386 parameters, 0 gradients
+2022-12-02T13:42:14,069 [WARN ] W-9002-carpartsdetection_3.0-stderr MODEL_LOG - yolov7-seg summary: 325 layers, 37923386 parameters, 0 gradients
+2022-12-02T13:42:14,069 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - yolov7-seg summary: 325 layers, 37923386 parameters, 0 gradients
+2022-12-02T13:42:24,163 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - Backend received inference at: 1669968744
+2022-12-02T13:42:24,166 [WARN ] W-9003-carpartsdetection_3.0-stderr MODEL_LOG - Backend received inference at: 1669968744
+2022-12-02T13:46:52,955 [WARN ] W-9001-carpartsdetection_3.0-stderr MODEL_LOG - Backend received inference at: 1669969012
+2022-12-02T13:46:52,955 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Backend received inference at: 1669969012
+2022-12-02T13:47:11,961 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Backend received inference at: 1669969031
+2022-12-02T13:47:11,961 [WARN ] W-9000-carpartsdetection_3.0-stderr MODEL_LOG - Backend received inference at: 1669969031
+2022-12-02T13:47:25,918 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Backend received inference at: 1669969045
+2022-12-02T13:47:25,928 [WARN ] W-9002-carpartsdetection_3.0-stderr MODEL_LOG - Backend received inference at: 1669969045
+2022-12-02T13:47:52,834 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - Backend received inference at: 1669969072
+2022-12-02T13:47:52,839 [WARN ] W-9003-carpartsdetection_3.0-stderr MODEL_LOG - Backend received inference at: 1669969072
+2022-12-02T13:48:07,781 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Backend received inference at: 1669969087
+2022-12-02T13:48:07,785 [WARN ] W-9001-carpartsdetection_3.0-stderr MODEL_LOG - Backend received inference at: 1669969087
+2022-12-02T13:48:32,667 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Backend received inference at: 1669969112
+2022-12-02T13:48:32,668 [WARN ] W-9000-carpartsdetection_3.0-stderr MODEL_LOG - Backend received inference at: 1669969112
+2022-12-02T13:48:44,625 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Backend received inference at: 1669969124
+2022-12-02T13:48:44,625 [WARN ] W-9002-carpartsdetection_3.0-stderr MODEL_LOG - Backend received inference at: 1669969124
+2022-12-02T13:48:53,250 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - Backend received inference at: 1669969133
+2022-12-02T13:48:53,251 [WARN ] W-9003-carpartsdetection_3.0-stderr MODEL_LOG - Backend received inference at: 1669969133
+2022-12-02T13:49:12,965 [INFO ] W-9001-carpartsdetection_3.0-stdout MODEL_LOG - Backend received inference at: 1669969152
+2022-12-02T13:49:12,967 [WARN ] W-9001-carpartsdetection_3.0-stderr MODEL_LOG - Backend received inference at: 1669969152
+2022-12-02T13:49:21,848 [INFO ] W-9000-carpartsdetection_3.0-stdout MODEL_LOG - Backend received inference at: 1669969161
+2022-12-02T13:49:21,848 [WARN ] W-9000-carpartsdetection_3.0-stderr MODEL_LOG - Backend received inference at: 1669969161
+2022-12-02T13:49:41,277 [INFO ] W-9002-carpartsdetection_3.0-stdout MODEL_LOG - Backend received inference at: 1669969181
+2022-12-02T13:49:41,278 [WARN ] W-9002-carpartsdetection_3.0-stderr MODEL_LOG - Backend received inference at: 1669969181
+2022-12-02T13:49:52,679 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - Backend received inference at: 1669969192
+2022-12-02T13:49:52,681 [WARN ] W-9003-carpartsdetection_3.0-stderr MODEL_LOG - Backend received inference at: 1669969192
+2022-12-02T13:50:19,923 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9003
+2022-12-02T13:50:19,928 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - [PID]398
+2022-12-02T13:50:19,935 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - Torch worker started.
+2022-12-02T13:50:19,942 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - Python runtime: 3.8.15
+2022-12-02T13:50:20,040 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9003.
+2022-12-02T13:50:20,241 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - model_name: carpartsdetection, batchSize: 1
+2022-12-02T13:50:25,366 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - Fusing layers... 
+2022-12-02T13:50:25,367 [WARN ] W-9003-carpartsdetection_3.0-stderr MODEL_LOG - Fusing layers... 
+2022-12-02T13:50:27,490 [INFO ] W-9003-carpartsdetection_3.0-stdout MODEL_LOG - yolov7-seg summary: 325 layers, 37923386 parameters, 0 gradients
+2022-12-02T13:50:27,490 [WARN ] W-9003-carpartsdetection_3.0-stderr MODEL_LOG - yolov7-seg summary: 325 layers, 37923386 parameters, 0 gradients
